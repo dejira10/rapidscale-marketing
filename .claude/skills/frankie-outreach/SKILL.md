@@ -14,6 +14,7 @@ buyers with different services. Use only Frankie's material here.
    - `references/outreach.md`;
    - `references/conversations.md`;
    - `references/loom-and-doc.md`;
+   - `references/client-looms.md` (finished examples to model a Loom script on);
    - `references/offers.md`;
    - `references/voice.md`.
 2. A research brief from `frankie-market-research`, or verified facts about the
@@ -32,7 +33,7 @@ If you have neither the symptom nor the who, stop and run
 | They replied or inquired | Situation question → parrot → street level → "what else have you tried?" | `conversations.md` |
 | They're ready for the plan | "I had some ideas… Is it cool if I share?" → steps one at a time → "What do you think of that plan?" | `conversations.md` |
 | The plan is agreed | "Can I tell you a little about what working together on that would look like?" → IVQ → how to buy | `conversations.md`, `offers.md` |
-| They need the full picture | 5-minute Loom or Google Doc script, built in reverse | `loom-and-doc.md` |
+| They need the full picture | 5-minute Loom or Google Doc script, built in reverse, modelled on the real client Looms | `loom-and-doc.md`, `client-looms.md` |
 | No reply after the details | Follow-ups that go deeper on one plan step each, or a humorous bump | `outreach.md` "Follow-up" |
 | They said no | Brutal honest feedback request, then "can I send ideas in the future?" | `conversations.md` |
 | Influencer, association, magazine, event | Give first (article, emails, clips, press release), one gift at a time, transparent about your service | `outreach.md` "Shoe-store / influencer outreach" |

@@ -41,6 +41,9 @@ Zip A = `Frankie_Fihnn.zip` (two identical uploads), zip B =
 | Z28 | WolfPack Call 2023-07-12 — The Irresistible Offer Framework | coaching call | A | read |
 | Z29 | WolfPack Call 2022-09-14 — Mindset Hacks Galore | coaching call | A | read |
 | Z30 | WolfPack Call 2023-04-12 — Real Relationships At Scale | coaching call | A | read |
+| Z31 | Get Flood Jobs Using Our SEO Services | real client-facing sales Loom (docx transcript) | upload | read |
+| Z32 | Restoration Website Design Services | real client-facing sales Loom (docx transcript) | upload | read |
+| Z33 | Client Onboarding Questionnaire | PDF form; author not stated, generic agency template | upload | read |
 
 ### Attribution notes
 

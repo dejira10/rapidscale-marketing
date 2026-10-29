@@ -9,6 +9,7 @@ entry carries a tag such as `[Z7]` that points to `source-index.md`.
 | `offers.md` | Offer matrix, TIMER, handraisers, specificity, add-on vs replacement, coffee date / first date / marriage, tiers of value, pricing (IVQ), proof and risk |
 | `conversations.md` | Opening questions, the parrot, 30,000 ft vs street level, Heaven/Hell Island, presenting the plan, red light / green light, closing, objections, expectation setting |
 | `loom-and-doc.md` | The 5-minute Loom / Google Doc framework, building in reverse, slide order, CTA, onboarding |
+| `client-looms.md` | Real finished sales Looms (restoration SEO and websites) and an onboarding questionnaire, as models |
 | `outreach.md` | Cold outreach flow, personalization, barbecue test, cold email format, follow-up by going deeper on the plan, shoe-store and influencer outreach, relationships at scale |
 | `voice.md` | How Frankie sounds, and what to leave out |
 
