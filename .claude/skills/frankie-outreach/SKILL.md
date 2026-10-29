@@ -16,6 +16,7 @@ buyers with different services. Use only Frankie's material here.
    - `references/loom-and-doc.md`;
    - `references/client-looms.md` (finished examples to model a Loom script on);
    - `references/offers.md`;
+   - `references/style-guide.md` (the rulebook);
    - `references/voice.md`.
 2. A research brief from `frankie-market-research`, or verified facts about the
    specific prospect.
@@ -52,8 +53,10 @@ If you have neither the symptom nor the who, stop and run
     you see my proposal?". [Z4, Z5, Z15, Z18]
 - **Be specific about the symptom and outcome.** Promise a small but meaningful
   ONE of something. [Z14, Z22]
-- **Write in Frankie's voice** (`voice.md`): casual, short, honest, light humour,
-  no profanity.
+- **Follow `style-guide.md`:** casual, short, honest, restrained humour in
+  cold outreach, no profanity. Don't impersonate Frankie or claim to speak for
+  him.
+- **Run the style guide's final quality check** (section 17) on every draft.
 - **Cite** the source tags of the frameworks used, in a note under the draft.
 
 ## Output

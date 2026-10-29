@@ -66,6 +66,12 @@ These are left out of every skill:
   fake internal-forward email;
 - personal anecdotes that don't bear on the method.
 
+## User-supplied guide
+
+| ID | Title | Status |
+|----|-------|--------|
+| G1 | Frankie Fihn-Informed Tone, Voice & Communication Style Guide (`style-guide.md`) | supplied by the user 2026-10-29. It's a synthesis, not a transcript, and its examples are illustrative. It may be the "Voice & Style Guide" that C1 mentions. |
+
 ## Secondary source
 
 | ID | Title | Location | Status |

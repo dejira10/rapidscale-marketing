@@ -11,7 +11,8 @@ entry carries a tag such as `[Z7]` that points to `source-index.md`.
 | `loom-and-doc.md` | The 5-minute Loom / Google Doc framework, building in reverse, slide order, CTA, onboarding |
 | `client-looms.md` | Real finished sales Looms (restoration SEO and websites) and an onboarding questionnaire, as models |
 | `outreach.md` | Cold outreach flow, personalization, barbecue test, cold email format, follow-up by going deeper on the plan, shoe-store and influencer outreach, relationships at scale |
-| `voice.md` | How Frankie sounds, and what to leave out |
+| `style-guide.md` | The tone, voice and communication rulebook (user-supplied, G1) |
+| `voice.md` | Transcript evidence for how Frankie sounds, and what to leave out |
 
 ## The whole system in one page
 

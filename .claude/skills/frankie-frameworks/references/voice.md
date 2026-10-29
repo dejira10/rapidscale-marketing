@@ -1,5 +1,8 @@
 # Frankie — Voice
 
+The rulebook for drafts is `style-guide.md` (G1). This file holds the
+transcript evidence behind it.
+
 ## How he sounds
 
 - **Plain, casual and conversational**: "Hey dude", "my man", "Is it cool if I
