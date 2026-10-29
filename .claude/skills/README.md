@@ -1,0 +1,33 @@
+# Skills Index
+
+## Per-marketer (kept separate on purpose)
+| Marketer | Frameworks (source of truth) | Market research | Outreach |
+|---|---|---|---|
+| Frankie | `frankie-frameworks` | `frankie-market-research` (baseline) | `frankie-outreach` |
+| Saad | `saad-frameworks` | `saad-market-research` (overlooked industries, deep dives) | `saad-outreach` |
+| Aaron | `aaron-frameworks` | `aaron-market-research` | `aaron-outreach` |
+
+Each `*-frameworks/references/` folder has `source-index.md` (what's been read)
+and `frameworks.md` (what was extracted, with source tags). They start empty.
+Nothing gets added that doesn't come from a source that was actually read.
+
+## Shared prospecting
+- `ad-spend-finder`: companies paying for Google/PPC, Meta and LinkedIn ads,
+  plus a pixel-detection script.
+- `franchise-finder`: every franchise brand in an industry, then the locations
+  and owners within a brand.
+
+## Alabama newsletter
+- `alabama-newsletter`: orchestrator, sources, style guide, n8n plan
+  - `alabama-policy-tracker`: The Rundown
+  - `alabama-rep-scorecard`: What Have You Done for Me Lately?
+  - `alabama-terms-explainer`: Word of the Week
+  - `alabama-community-jobs`: Around the State and Opportunity Board
+  - `alabama-newsletter-editor`: fact, fairness and tone pass
+
+## Waiting on material
+- Frankie: transcript of the "Closing" Loom training and the rest of the Drive
+  folder (the Drive connector failed to authenticate in this session).
+- Saad: transcripts on how he picks and researches industries.
+- Aaron: their blueprint or training material.
+- Newsletter: the Recap AI n8n example, to mirror in `n8n-pipeline.md`.
