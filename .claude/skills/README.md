@@ -26,8 +26,10 @@ Nothing gets added that doesn't come from a source that was actually read.
   - `alabama-newsletter-editor`: fact, fairness and tone pass
 
 ## Waiting on material
-- Frankie: transcript of the "Closing" Loom training and the rest of the Drive
-  folder (the Drive connector failed to authenticate in this session).
+- Frankie: built from 30 primary transcripts (the uploaded zips). Still unread:
+  six Drive documents (Loom checklist, slide-planning guide, Finger Pointer
+  examples, Motorcycle Loom, Rev Share ad, Closing $1k–$10k guide) and the
+  "Niches" subfolder. See `frankie-frameworks/references/source-index.md`.
 - Saad: transcripts on how he picks and researches industries.
 - Aaron: their blueprint or training material.
 - Newsletter: the Recap AI n8n example, to mirror in `n8n-pipeline.md`.

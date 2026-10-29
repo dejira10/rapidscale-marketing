@@ -1,37 +1,86 @@
 ---
 name: frankie-market-research
-description: Market and industry research done Frankie's way — choosing industries, sizing them, finding their problems and building a target list. Use when researching a market, niche or industry for Frankie's services. Not for the other marketers; each has their own research skill.
+description: Market and industry research done Frankie's way — pick the who, find the shoe stores and shoe buyers, mine Reddit/Quora/Amazon reviews and interviews for symptoms scored on frequency and emotion, find the $100 bill, and build a target list of businesses already spending on marketing. Use when researching a market, niche or industry for Frankie's services. Not for the other marketers; each has their own research skill.
 ---
 
 # Frankie — Market Research
 
-This is the baseline research skill. Saad's and Aaron's may later reuse its structure, but not its selection criteria.
+This is the baseline research skill. Saad's and Aaron's may reuse its
+structure, but not its selection criteria.
 
 ## Before you start
 
-1. Load `frankie-frameworks` and read `references/frameworks.md`, especially
-   "How Frankie picks markets" and "Research process".
-2. If those sections are empty, stop and tell the user what's missing. Fall back
-   to the generic research steps below only if the user says so, and label the
-   result **generic — not yet Frankie's method**.
+Load `frankie-frameworks`, then read:
 
-## Research steps (fill in from Frankie's frameworks)
+- `references/frameworks.md`;
+- `references/research.md` (this skill's method);
+- the offer-matrix section of `references/offers.md`.
 
-1. **Industry selection**: apply Frankie's selection criteria and write down why
-   the industry passes or fails each one.
-2. **Industry deep dive**: how the businesses make money, typical deal size,
-   seasonality, buying triggers, who decides, and where they gather (associations,
-   forums, trade shows, Facebook groups, subreddits).
-3. **Problems**: what these owners actually complain about, quoted from reviews,
-   forums and calls with a link for each. Rank by how often they come up and
-   how much they hurt.
-4. **Fit to Frankie's offer**: which problems the offer solves, and which it doesn't.
-5. **Target list**: use `ad-spend-finder` (companies already paying for ads)
-   and `franchise-finder` (franchise systems and their owners) as needed.
+Cite source tags such as `[Z8]` for each method you use.
 
-## Output
+## Steps
 
-A brief with: the industry verdict and the criteria behind it, the problem list
-with evidence links, the angle for `frankie-outreach`, and the target list. Every
-claim needs a source link or a frameworks citation. Mark anything inferred as
-**inferred**.
+1. **Who.**
+   - Define the target with **binary** criteria: industry, staff or crew size,
+     and a spending signal.
+   - Apply Frankie's filters:
+     - shoe buyers who are already spending;
+     - established businesses (roughly 10 employees, answer the phone) over
+       owner-operators;
+     - bigger businesses are easier;
+     - avoid broke prospects and the "comfortable middle". [Z6, Z7, Z9, Z10, Z29]
+   - Say why the industry passes or fails each filter.
+2. **Shoe stores.** Fill the spreadsheet columns from `research.md` §2:
+   - influencers and gurus (with their courses, masterminds and events);
+   - books;
+   - communities and groups (check they're active);
+   - associations;
+   - software and tools;
+   - events and exhibitor lists;
+   - competing products and services;
+   - address and social links for each.
+   Mark the 3–5 shoe stores with the most buyer flow. [Z7, Z8, Z27, Z30]
+3. **Symptoms.**
+   - Search Reddit and Quora for "what is the hardest part of being a [X]", and
+     the "why would you tell somebody NOT to become a [X]" threads.
+   - Read the Amazon 1-star and 5-star reviews of books for the niche.
+   - Collect community posts. [Z8, Z13, Z23]
+   - Copy quotes **verbatim**, each with a link and its upvote count.
+   - Score each symptom on frequency (daily?) and emotion (red / orange /
+     yellow). [Z8, Z26]
+   - Separate symptoms from upstream causes. [Z26]
+4. **Outcomes and the $100 bill.**
+   - Capture outcomes in their words.
+   - Find which jobs, patients or clients they wish they had more of and less of,
+     and what their highest-value work is. [Z12, Z21, Z23]
+5. **Current plan.**
+   - What do they do now (referrals, lead services, ads, nothing)?
+   - What have they tried that failed?
+   - Who do they distrust (the vendors everyone in the industry hates)? [Z13, Z15, Z25]
+6. **Industry language.** List 20–50 insider terms, and the wrong words to
+   avoid. [Z4, Z13]
+7. **Closest to the hole.** For the chosen service, list the segments near the
+   sale: past customers, abandoned quotes, no-shows, people who almost bought,
+   and people who recently left a vendor. [Z7, Z15]
+8. **Target list.**
+   - Use `ad-spend-finder` for businesses running Google, Facebook or other ads,
+     and to check for pixels.
+   - Use `franchise-finder` for multi-location systems.
+   - Count staff from the About Us page.
+   - Rank by spending signal and size. **Less but better:** a short, hand-picked
+     list of big spenders beats a long one. [Z9, Z12, Z15]
+9. **Draft 2–3 handraisers.** Use the formula in `offers.md`, built from the
+   red-scored symptoms. Test one symptom at a time. [Z7, Z8, Z14]
+
+## Output: research brief
+
+Use the section list at the end of `research.md`. Every claim needs a source
+link (for market facts) or a frameworks citation (for method). Mark inferences
+**inferred**. Flag symptoms that have no verbatim quote as **unvalidated**.
+
+## Limits
+
+- Don't fabricate quotes, upvote counts, review counts or ad activity. If a
+  source is blocked, say so.
+- Interviews and real sales conversations beat desk research. Recommend 5–10
+  before building a Loom. [Z10, Z13]

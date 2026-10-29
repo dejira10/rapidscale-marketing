@@ -1,6 +1,6 @@
 ---
 name: frankie-outreach
-description: Write cold outreach (email, DM, SMS, call openers, follow-up sequences) using Frankie's frameworks and the output of frankie-market-research. Use when drafting outreach for Frankie's services or prospects.
+description: Write outreach and sales messages Frankie's way — personalized handraiser openers, barbecue-test DMs, 3–4 sentence cold emails, text-chat sales replies (parrot, plan in steps, "what do you think of that plan?"), 5-minute Loom/Google Doc scripts with IVQ pricing, follow-ups that go deeper on the plan, and giver's-mentality outreach to shoe stores and influencers. Use when drafting outreach or sales messages for Frankie's services or prospects.
 ---
 
 # Frankie — Outreach
@@ -10,27 +10,72 @@ buyers with different services. Use only Frankie's material here.
 
 ## Inputs
 
-1. `frankie-frameworks` → `references/frameworks.md` (the "Outreach" and
-   "Objection handling" sections).
-2. A research brief from `frankie-market-research` for the target industry, or the
-   specific prospect's details.
+1. From `frankie-frameworks`, read:
+   - `references/outreach.md`;
+   - `references/conversations.md`;
+   - `references/loom-and-doc.md`;
+   - `references/offers.md`;
+   - `references/voice.md`.
+2. A research brief from `frankie-market-research`, or verified facts about the
+   specific prospect.
 
-If the Outreach section of the frameworks is empty, say so and ask the user
-before drafting. Don't present generic copy as Frankie's method.
+If you have neither the symptom nor the who, stop and run
+`frankie-market-research` first. "60% list, 30% offer, 10% copy." [Z9]
 
-## Steps
+## Pick the right piece
 
-1. Pick the framework or sequence from Frankie's material and cite it.
-2. Personalize from verified facts only: the prospect's site, ads, reviews,
-   franchise or location data. Never invent a compliment, a metric or a mutual
-   connection.
-3. Draft each touch, with channel, timing, subject/opener and CTA as the
-   framework specifies.
-4. List the assumptions you made and the facts you still need to verify before
-   it's sent.
+| Situation | Use | Source |
+|---|---|---|
+| Cold prospect, first touch | Personal observation plus a handraiser idea, 1–3 sentences, low-friction reply | `outreach.md` "Message 1" |
+| Cold email | 3–4 sentences, subject "Question for you, [name]" | `outreach.md` "Cold email format" |
+| Community or Facebook-list post | Handraiser formula with a one-word comment CTA | `offers.md` "Handraiser" |
+| They replied or inquired | Situation question → parrot → street level → "what else have you tried?" | `conversations.md` |
+| They're ready for the plan | "I had some ideas… Is it cool if I share?" → steps one at a time → "What do you think of that plan?" | `conversations.md` |
+| The plan is agreed | "Can I tell you a little about what working together on that would look like?" → IVQ → how to buy | `conversations.md`, `offers.md` |
+| They need the full picture | 5-minute Loom or Google Doc script, built in reverse | `loom-and-doc.md` |
+| No reply after the details | Follow-ups that go deeper on one plan step each, or a humorous bump | `outreach.md` "Follow-up" |
+| They said no | Brutal honest feedback request, then "can I send ideas in the future?" | `conversations.md` |
+| Influencer, association, magazine, event | Give first (article, emails, clips, press release), one gift at a time, transparent about your service | `outreach.md` "Shoe-store / influencer outreach" |
+| Hand-picked big spenders | Personalized direct-mail letter with a text-me CTA | `outreach.md` "Direct mail" |
+
+## Drafting rules
+
+- **Personalize only from verified facts:** their site, posts, About Us page,
+  ads, reviews, location data. Never invent a compliment, metric, mutual
+  connection or client result.
+- **Check every draft** before you hand it over:
+  - **Barbecue test:** would you say it out loud at a barbecue?
+  - **Count the "I"s.**
+  - **One ask per message.**
+  - **No** "hope you're doing well", "quick question", "circling back" or "did
+    you see my proposal?". [Z4, Z5, Z15, Z18]
+- **Be specific about the symptom and outcome.** Promise a small but meaningful
+  ONE of something. [Z14, Z22]
+- **Write in Frankie's voice** (`voice.md`): casual, short, honest, light humour,
+  no profanity.
+- **Cite** the source tags of the frameworks used, in a note under the draft.
+
+## Output
+
+For each touch, give:
+
+- channel;
+- timing (day number);
+- subject line or opener;
+- the message;
+- the reply you're hoping for.
+
+After the drafts, add:
+
+- the assumptions you made;
+- the facts to verify before sending.
+
+A sequence covers all three outcomes: ignored, yes and no. [Z27]
 
 ## Compliance
 
-Email: follow CAN-SPAM (real sender, physical address, working opt-out).
-SMS and calls: TCPA rules apply, so don't send texts or automated calls to
-anyone without consent.
+- **Email:** follow CAN-SPAM (real sender, physical address, working opt-out).
+- **SMS and automated calls:** TCPA rules apply. Don't text or auto-call anyone
+  without consent.
+- **Facebook groups:** respect the group's rules on soliciting. Where they forbid
+  it, approach the group owner instead. [Z9]
