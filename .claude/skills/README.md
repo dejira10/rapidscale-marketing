@@ -32,8 +32,9 @@ Nothing gets added that doesn't come from a source that was actually read.
   "Niches" subfolder. See `frankie-frameworks/references/source-index.md`.
 - Saad: transcripts on how he picks and researches industries.
 - Aaron: the "local home service partnership" transcript (not uploaded yet).
-  Note: the attorney "Aaron/Erin" in Frankie's WolfPack calls is a different
-  person; don't use those calls for Aaron's skills.
+  Note: an attorney "Aaron/Erin" speaks in two of Frankie's WolfPack calls,
+  probably a student or client of Frankie's. It isn't confirmed to be the same
+  Aaron, so don't use those calls for Aaron's skills.
 - Ad-spend finder: compare against Dar's blueprint once available (Dar runs a
   GoHighLevel community that helps agencies sell services).
 - Newsletter: the Recap AI n8n example, to mirror in `n8n-pipeline.md`.
