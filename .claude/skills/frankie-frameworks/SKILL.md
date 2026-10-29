@@ -20,7 +20,7 @@ other Frankie skills (`frankie-market-research`, `frankie-outreach`) read from i
 | `references/offers.md` | Offer matrix, TIMER, handraisers, specificity, add-on offers, coffee date / first date / marriage, IVQ pricing, proof and risk |
 | `references/conversations.md` | Running a sales conversation in text: opening, parroting, Heaven/Hell Island, presenting the plan, closing, objections |
 | `references/loom-and-doc.md` | Building the 5-minute Loom or Google Doc, onboarding, pre-sell content |
-| `references/client-looms.md` | Frankie's real client-facing sales Looms (restoration SEO, restoration websites) and PI motorcycle-leads, broken down step by step, plus the onboarding questionnaire |
+| `references/client-looms.md` | Frankie's real client-facing sales Looms (restoration SEO, restoration websites, PI motorcycle leads) broken down step by step, plus the onboarding questionnaire |
 | `references/outreach.md` | Cold messages, cold email, follow-up sequences, influencer and shoe-store outreach, direct mail |
 | `references/voice.md` | How Frankie sounds, and what to leave out |
 | `references/source-index.md` | Where every `[Zn]` tag comes from, and what's still unread |
