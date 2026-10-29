@@ -27,8 +27,8 @@ Nothing gets added that doesn't come from a source that was actually read.
 
 ## Waiting on material
 - Frankie: built from 30 primary transcripts (the uploaded zips). Still unread:
-  six Drive documents (Loom checklist, slide-planning guide, Finger Pointer
-  examples, Motorcycle Loom, Rev Share ad, Closing $1k–$10k guide) and the
+  five Drive documents (Loom checklist, slide-planning guide, Finger Pointer
+  examples, Rev Share ad, Closing $1k–$10k guide) and the
   "Niches" subfolder. See `frankie-frameworks/references/source-index.md`.
 - Saad: transcripts on how he picks and researches industries.
 - Aaron: their blueprint or training material.

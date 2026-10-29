@@ -8,7 +8,7 @@ press network, call ranges, prices) are **Frankie's own claims about his own
 business**. Never reuse them for another marketer or client unless that person
 confirms they're true for them.
 
-Sources: Z31, Z32 and Z33 in `source-index.md`. The auto-detailing website Loom
+Sources: Z31, Z32, Z33 and Z34 in `source-index.md`. The auto-detailing website Loom
 (Z2) is summarized in `loom-and-doc.md`.
 
 ## Z31 — "Get Flood Jobs Using Our SEO Services" (restoration SEO Loom)
@@ -121,7 +121,64 @@ list. Ask for the real figures.
    and later, access.
 10. **Next step.** The form on the website, then a quote for what they want to build.
 
-## Patterns across Z2, Z31 and Z32
+## Z34 — "Motorcycle Case Leads Loom" (PI law firms, about 4 minutes, timestamped transcript)
+
+1. **Open on the offer in one line** (0:02). "Hey, it's Frankie here. I want to
+   show you really quickly, how for your law firm, you can get motorcycle case
+   leads for $40."
+2. **Remove the objections up front** (0:09):
+   - "That includes all costs. There's no separate advertising cost…";
+   - "we've also taken off your plate… a year's worth of nurturing these leads
+     and follow up."
+3. **Why this niche** (0:24). "Motorcycle cases tend to be higher value cases…
+   more damages."
+4. **How it works** (0:38).
+   - **Proof without details:** "currently doing this for a couple of lawyers
+     and for legal reasons, I can't show you all the details".
+   - **Targeting:** Facebook ads within about 50 miles of their location(s), at
+     people who bought motorcycle accessories, ride motorcycles and bought
+     helmets.
+   - **Landing page and licensed book** in the firm's name. It's all included,
+     with no extra setup. Compliance: "if you want to look it over just to make
+     sure everything's cool with your state bar, that's all good."
+   - **Pricing trigger:** they pay $40 when someone opts in to download the book.
+   - **Ad examples:** "Must-have guide for bikers: who to talk to, how to handle
+     your damaged bike, when to seek medical attention…"; "bikers' rights";
+     "stay safe on the road with this free guide".
+   - **A year-long drip campaign** (2:08), built on "the questions you get
+     asked religiously":
+     - thank you for requesting our guide;
+     - don't try and figure this out on your own;
+     - how's everything going?;
+     - don't be a victim to the insurance adjuster's tactics;
+     - can I sue without insurance?;
+     - are you still thinking it over?;
+     - how much money can I get?;
+     - how much does it cost to hire a lawyer?
+   - **The logic** (3:02). About 2–2.5% of these people get injured in motorcycle
+     accidents, "and you'll be the first person they call because you've been
+     the one who sent them the book".
+5. **Offer and terms** (3:17).
+   - You pay only for leads. There's no ad cost, ongoing fee or minimum, except
+     a starter package for setup: **25 leads × $40 = $1,000**. He misspeaks
+     ("40") and then corrects himself.
+6. **Value framing** (3:51). "You could probably spend just five grand on leads
+   and get one motorcycle case and the numbers would work out for you."
+7. **Next step** (4:14). "If you're interested in getting a starter package or
+   if you have some questions, go ahead and fill out the form below."
+
+**Notes:**
+
+- This is a **pay-per-lead first date**: the risk is removed, the price is
+  small, and the setup is "already done for you".
+- **Its figures differ from other sources.** Elsewhere Frankie cites about $10
+  motorcycle leads and a 1–2% yearly crash rate [Z6, Z9, Z14]. These are
+  different offers at different times, so don't merge them; ask for current
+  numbers.
+- The "for legal reasons I can't show you all the details" line is Frankie's own
+  situation. Don't reuse it unless it's true for the user.
+
+## Patterns across Z2, Z31 and Z32, Z34
 
 These are observed in the client Looms and match the workshop framework [Z8, Z12]:
 

@@ -44,6 +44,7 @@ Zip A = `Frankie_Fihnn.zip` (two identical uploads), zip B =
 | Z31 | Get Flood Jobs Using Our SEO Services | real client-facing sales Loom (docx transcript) | upload | read |
 | Z32 | Restoration Website Design Services | real client-facing sales Loom (docx transcript) | upload | read |
 | Z33 | Client Onboarding Questionnaire | PDF form; author not stated, generic agency template | upload | read |
+| Z34 | Motorcycle Case Leads Loom (= D18) | real client-facing sales Loom (PDF, timestamped transcript) | upload | read |
 
 ### Attribution notes
 
@@ -85,7 +86,6 @@ be opened. The rest of the C1 list (D1–D8, D11–D15, D17) matches Z-sources a
 | D9 | 5-Minute Loom Video Checklist | unread |
 | D10 | Loom Slide-Planning Guide | unread |
 | D16 | The Finger Pointer Examples | unread |
-| D18 | Motorcycle Case Leads Loom | unread (described in Z6, Z8 and Z9) |
 | D19 | Rev Share Course Creator Ad | unread |
 | D20 | Closing $1k–$10k/Month Agency Services Using Loom Videos | unread |
 | — | "Niches" subfolder of Drive folder 1NlySR6N7QCcp0pncisXuqqlLLsMaorW9 | unread |
