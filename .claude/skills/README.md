@@ -31,5 +31,9 @@ Nothing gets added that doesn't come from a source that was actually read.
   examples, Rev Share ad, Closing $1k–$10k guide) and the
   "Niches" subfolder. See `frankie-frameworks/references/source-index.md`.
 - Saad: transcripts on how he picks and researches industries.
-- Aaron: their blueprint or training material.
+- Aaron: the "local home service partnership" transcript (not uploaded yet).
+  Note: the attorney "Aaron/Erin" in Frankie's WolfPack calls is a different
+  person; don't use those calls for Aaron's skills.
+- Ad-spend finder: compare against Dar's blueprint once available (Dar runs a
+  GoHighLevel community that helps agencies sell services).
 - Newsletter: the Recap AI n8n example, to mirror in `n8n-pipeline.md`.
