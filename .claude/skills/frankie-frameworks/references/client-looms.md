@@ -133,8 +133,12 @@ list. Ask for the real figures.
 3. **Why this niche** (0:24). "Motorcycle cases tend to be higher value cases…
    more damages."
 4. **How it works** (0:38).
-   - **Proof without details:** "currently doing this for a couple of lawyers
-     and for legal reasons, I can't show you all the details".
+   - **Show the assets, hold back what's legally restricted:** "currently doing
+     this for a couple of lawyers and for legal reasons, I can't show you all
+     the details". He shows the assets he built (the landing page, the ads, the
+     drip emails) but not the lawyers' actual downloadable guide, because
+     state-bar advertising rules restrict showing it. (The user confirmed this
+     context; the transcript itself only says "legal reasons".)
    - **Targeting:** Facebook ads within about 50 miles of their location(s), at
      people who bought motorcycle accessories, ride motorcycles and bought
      helmets.
@@ -175,8 +179,12 @@ list. Ask for the real figures.
   motorcycle leads and a 1–2% yearly crash rate [Z6, Z9, Z14]. These are
   different offers at different times, so don't merge them; ask for current
   numbers.
-- The "for legal reasons I can't show you all the details" line is Frankie's own
-  situation. Don't reuse it unless it's true for the user.
+- **Regulated industries** (law, medical, finance): use the same move. Show the
+  assets you built, hold back the client-specific piece that compliance rules
+  restrict, and say why in one plain sentence. Tell the client they can check it
+  with their regulator ("make sure everything's cool with your state bar").
+  Only claim a legal restriction when one actually applies; it isn't a way to
+  hide the work.
 
 ## Patterns across Z2, Z31 and Z32, Z34
 
