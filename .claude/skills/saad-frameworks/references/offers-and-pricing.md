@@ -83,8 +83,8 @@ Notice the offer doesn't say "we'll generate your leads." [S04]
   - You control: filtering, qualification, the capacity of who gets in the
     room.
   - You don't control: chemistry, markets, the relationship.
-  - "Delivery standard": "If they clearly lack the capacity, that's my failure
-    and I'll address it."
+  - "Delivery standard": "If I bring firms that clearly don't have that
+    capacity, that's a failure on my side."
 - **Contract language** [S40]: "[Company] agrees to make commercially reasonable
   efforts to facilitate introductions. [Company] does not guarantee acceptance,
   engagement, or transaction completion."
@@ -103,8 +103,9 @@ Notice the offer doesn't say "we'll generate your leads." [S04]
 3. How hard is it for them to get what I'm bringing?
 4. What is being blocked (revenue, harvest, opening, contract)?
 
-**Price on the value, not the work.** "Price on the money trapped behind the
-problem." "Once you think like this you'll 10x your prices." [S15, S16]
+**Price on the value, not the work.** "They're paying because there is money
+trapped behind that problem." "Once you guys start thinking like this, you will
+10x your prices." [S15, S16]
 
 **Anchor on their economics** and show the math:
 
@@ -122,7 +123,8 @@ problem." "Once you think like this you'll 10x your prices." [S15, S16]
 **Other pricing rules:**
 
 - **Non-round numbers look calculated** ($2,589, $3,589, $1,997). They pre-empt
-  "where did that number come from?" [S01, S46]
+  "where did you bring that number? Did you create that number out of thin
+  air?" [S01, S46]
 - **Price for the first deal.** Make it high enough to be good money, low
   enough to need no proof. "I want the opportunity itself to do the selling, not
   my reputation." Raise it with proof [S05].

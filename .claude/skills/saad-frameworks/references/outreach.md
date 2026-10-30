@@ -27,8 +27,8 @@ true for the user's situation (see `voice-and-exclusions.md`).
   or two in front of you?" [S05]
 - **Check capacity on the supply side**: "do you have room for one more job?"
   [S05, S12]
-- **"I do this independently. I don't represent them."** This pre-empts "who
-  are you working for?" [S07]
+- **"I do this independently. I don't represent them."** It pre-empts "Are you representing them? Are you working on their behalf?"
+  [S07]
 - **Tie the CTA to money**, e.g. overtime at 1.5×, empty beds [S11].
 - **A researched market stat signals insight**, e.g. honey prices up 27%, or
   bulk buyers paying $2.45 a pound [S07].
@@ -292,7 +292,8 @@ understand what size centers you like, pricing, and how your delivery works?
 Are you free at {t1} or {t2}?" [S03]
 
 **Exception:** when they ask your price directly, answer directly. "Never hedge,
-never redirect to a call to discuss pricing." [S10, S11]
+never redirect, never tell them, okay, actually, just hop on a call and discuss
+pricing." [S10, S11]
 
 **Examples from his threads:**
 

@@ -41,11 +41,12 @@ He emails both sides at the same time with plain copy [S01, S16].
   money." [S01]
 - "The money is in the looking. The barrier is doing the boring work. Boring is
   money." [S06]
-- "You're not selling, you're saving. You shortcut both sides." [S37]
+- "You're not selling, you're saving. You shortcut both." [S37]
 - "You're creating optionality on both sides and waiting for intent to reveal
   itself." [S37]
 - "Your guarantee should stay exactly where your work ends." [S13]
-- "Price on the value your work creates, not on the work." [S15, S16]
+- "Never actually look at the work you do. Look at the value that your work can
+  create." [S15, S16]
 - "When interest is real, prospects start doing labor." [S41]
 - "Does this put me in front of someone who could pay me? If yes, do it. If not,
   kill it." [S09]

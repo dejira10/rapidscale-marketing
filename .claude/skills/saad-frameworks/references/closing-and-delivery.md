@@ -28,14 +28,15 @@
 
 ## 2. Calls: a tool, not a law
 
-- "A call is just a tool to reduce uncertainty":
+- A call is a tool for reducing uncertainty. "A call is just a tool, not a law
+  of nature." [S11] The uncertainty is:
   - who are you;
   - can you deliver;
   - what am I paying for;
   - what happens after I pay;
   - what if it doesn't work?
 
-  Answer those in writing and "the call has nothing left to do." [S05, S11]
+  If you answer those in writing, the call has nothing left to do [S05, S11].
 - **"Let the deal tell you whether you need to hop on a call."** If there's
   friction or an objection, take the call. Calls build trust [S06].
 - **First calls are short:** 10–20 minutes [S03, S40, S50].

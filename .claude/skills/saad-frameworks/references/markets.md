@@ -1,6 +1,6 @@
 # Saad — Picking Markets, Signals and Lists
 
-Saad's edge is choosing industries "nobody would think to go into." He goes
+Saad's edge is choosing industries nobody would think to go into. He goes
 deep into the data those industries are forced to publish. This file covers how
 he chooses, what he looks for and where he gets the lists.
 
