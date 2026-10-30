@@ -14,7 +14,9 @@ Use only Saad's material here. Outreach for Frankie and Aaron differs.
    - `references/closing-and-delivery.md` (closes, intros, after);
    - `references/offers-and-pricing.md` (offer wording, guarantee, language
      discipline, transparency line);
-   - `references/style-guide.md` (**the tone rulebook**);
+   - `references/user-guide.md` (**the rulebook**: quiet authority, outreach
+     structure, qualification);
+   - `references/style-guide.md` (Saad's tone in detail);
    - `references/voice-and-exclusions.md` (honesty flags and exclusions).
 2. A lane brief from `saad-market-research`, or verified facts about the
    specific prospects on both sides.
@@ -48,7 +50,9 @@ If you don't know both sides and the trigger, run `saad-market-research` first.
    - no flattery or AI-sounding personalization.
 
    The personalization is the specific public fact.
-3. **Apply `style-guide.md`** and run its final quality check.
+3. **Apply `user-guide.md`, then `style-guide.md`,** and run both final checks.
+   Default to asking interest or permission before asking for a meeting
+   (`user-guide-review.md`).
 4. **Run the honesty check** (`voice-and-exclusions.md`). Every claim must be
    true for the user, including:
    - "I have…";

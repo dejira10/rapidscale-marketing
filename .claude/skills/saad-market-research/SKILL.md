@@ -13,6 +13,8 @@ moved. "The money is in the looking." [S06]
 
 Load `saad-frameworks` and read:
 
+- `references/user-guide.md` (**the rulebook**: run its 10-question research
+  mindset on every lane, and use the evidence ladder for tests);
 - `references/frameworks.md`;
 - `references/understanding-and-testing.md` (how he learns a market and tests
   it);

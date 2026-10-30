@@ -81,6 +81,8 @@ He emails both sides at the same time with plain copy [S01, S16].
 | `closing-and-delivery.md` | Calls (when to use them, supply-call structure), close emails, transparency lines, Stripe product naming, the thesis brief, intro templates, post-intro management, case-study ask, continuation and retainer |
 | `stack.md` | Tools, sending settings, enrichment and verification, and his own products (disclosed) |
 | `agency-era.md` | His earlier agency material: the signals, personalization and pipelines worth keeping, and what not to copy |
+| `user-guide.md` | **The rulebook (U1)** from the user: tone, research mindset, evidence ladder, outreach and qualification |
+| `user-guide-review.md` | U1 checked against the transcripts |
 | `style-guide.md` | The tone, voice and communication rulebook, with a final quality check |
 | `voice-and-exclusions.md` | How he sounds, what to leave out, the honesty flags, and his income claims (claims only, not results) |
 | `source-index.md` | Every source S01–S61, its era and status |

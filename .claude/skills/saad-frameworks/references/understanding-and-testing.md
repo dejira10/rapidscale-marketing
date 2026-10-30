@@ -110,6 +110,29 @@ Replies are research, not just leads.
 
 ## Part B — What he looks for when testing a new market
 
+### B0. The evidence ladder (from U1)
+
+Judge a test by how far up this ladder each lane gets, not by replies alone
+[U1]:
+
+1. Observable signal
+2. Potential need
+3. Positive response
+4. Confirmed requirement
+5. Qualified supplier fit
+6. Commercial agreement
+7. Delivered service or introduction
+
+What this means in practice:
+
+- A job posting doesn't automatically mean the employer wants a recruiter.
+- A funding announcement doesn't mean they want marketing.
+- A supplier wanting customers doesn't prove buyers exist.
+
+Saad builds this check into his copy: "do you already have a partner…?"
+[S39], or "checking if the issue is still active" [S18, S50]. He also counts
+only matches where both sides confirmed [S02].
+
 ### B1. How he runs the test
 
 - **Email both sides at the same time.** That puts "forces on both ends of the
@@ -224,10 +247,11 @@ version: $30k = 3 distributors + 3 brands [S02].
    - the first email for each side (`outreach.md`);
    - the follow-up steps;
    - the dates.
-6. **What to watch:** the B2 and B3 signals, and the decision rules from Part C.
-7. **The price hypothesis** from first principles (`offers-and-pricing.md` §4).
+6. **The highest rung reached on the evidence ladder** (B0) for each side.
+7. **What to watch:** the B2 and B3 signals, and the decision rules from Part C.
+8. **The price hypothesis** from first principles (`offers-and-pricing.md` §4).
    Mark it **suggested**.
-8. **After the test:**
+9. **After the test:**
    - replies by side and by step;
    - signals seen;
    - matches you could make today;

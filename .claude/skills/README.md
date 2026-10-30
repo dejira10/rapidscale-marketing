@@ -11,6 +11,16 @@ Each `*-frameworks/references/` folder has `source-index.md` (what's been read)
 and `frameworks.md` (the overview, with source tags), plus topic files.
 Nothing gets added that doesn't come from a source that was actually read.
 
+## Frankie vs. Saad: the research question
+
+| Marketer | Starts from |
+|---|---|
+| **Frankie** | What is this buyer experiencing, what do they want to change, and what offer would they find desirable? |
+| **Saad** | What changed that may require someone to spend money, who can supply it, and how can the transaction be verified and facilitated? |
+
+From the user's Saad guide (U1). Frankie explains the human buying decision.
+Saad finds the commercial event that creates the opportunity.
+
 ## Shared prospecting
 - `ad-spend-finder`: companies paying for Google/PPC, Meta and LinkedIn ads,
   plus a pixel-detection script.

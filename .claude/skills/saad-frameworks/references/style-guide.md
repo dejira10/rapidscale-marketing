@@ -6,7 +6,11 @@ the source tags it's based on. Examples marked **(illustrative)** were written
 for this guide; they aren't Saad quotes or real results. Examples marked with a
 source tag are Saad's own wording.
 
-**This guide is the rulebook for every Saad-style draft.** Where it's stricter
+**The rulebook is `user-guide.md` (U1), supplied by the user. This guide adds
+Saad's own wording and the transcript evidence, and works under U1.** Where
+they conflict, see `user-guide-review.md`.
+
+**Apply this guide to every Saad-style draft as well.** Where it's stricter
 than a transcript, it wins. That covers profanity, honesty and status games.
 
 ## 1. Core voice

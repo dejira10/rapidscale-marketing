@@ -20,7 +20,9 @@ other Saad skills (`saad-market-research`, `saad-outreach`) read from it.
 | `references/closing-and-delivery.md` | Routing matches, calls, the close email, keeping the other side warm, payment naming, the thesis brief, intro templates, after-intro management, personal brand |
 | `references/stack.md` | Tools and settings, with his own products disclosed |
 | `references/agency-era.md` | His earlier agency material: what to keep (signals, personalization, buyer insight) and what not to copy |
-| `references/style-guide.md` | **The tone, voice and communication rulebook.** Apply it to every draft and run its final quality check. |
+| `references/user-guide.md` | **The rulebook (U1), supplied by the user.** Tone, quiet authority, the research mindset (10 questions), the evidence ladder for testing, outreach structure, and qualification. It wins on tone and ethics. |
+| `references/user-guide-review.md` | U1 checked claim by claim against the transcripts: confirmed, partly, guide's addition, or differs (with resolutions) |
+| `references/style-guide.md` | Saad's tone in detail, with his own wording and source tags, and a final quality check. Works under U1 |
 | `references/voice-and-exclusions.md` | Tone, what to leave out, the honesty flags, and his income claims |
 | `references/source-index.md` | S01–S61 with era and status |
 
@@ -47,7 +49,9 @@ other Saad skills (`saad-market-research`, `saad-outreach`) read from it.
 1. Read `references/frameworks.md`, then the topic file(s) the task needs.
 2. Name the framework(s) you're applying and cite their tags, e.g. "replacement
    guarantee [S01, S13]."
-3. Follow `references/style-guide.md` and run its final quality check.
+3. Follow `references/user-guide.md` (the rulebook), then `references/style-guide.md`
+   for detail, and run both final checks. Where they conflict, follow the
+   resolutions in `user-guide-review.md`.
 4. Check every claim in a draft against the user's real situation. Strip or
    mark any claim the user hasn't confirmed.
 5. If the task needs something the frameworks don't cover, say so and ask the

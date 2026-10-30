@@ -86,6 +86,16 @@ OSHA, "Epify" means Apify, "ConnectOS" also appears as "Connectro" or
 | S60 | Watch me start an AI service & Sell to $100M Biotech CEOs (Live Build) (2) | YouTube zip | Agency (earlier) | read |  |
 | S61 | Watch me start an AI service & Sell to $100M Biotech CEOs (Live Build) | YouTube zip | Agency (earlier) | read | Duplicate transcription of S60 |
 
+## User-supplied guides
+
+| ID | Title | Type | Status | Note |
+|---|---|---|---|---|
+| U1 | Saad Belcaid — Market Research, Market Testing & Communication Framework | Guide written by another AI assistant from S01–S61, pasted by the user on 2026-10-30 | read | Saved verbatim as `user-guide.md`. It's the rulebook for tone and ethics. Checked in `user-guide-review.md` |
+| U1-FG | "Saad Belcaid — Complete Research & Business Framework" (4,600-word field guide) | Download mentioned in U1 | **unread** | Not provided. Upload it to add it |
+
+On 2026-10-30 the user re-uploaded both zips (`7a4aa032-…`, `847b7b73-…`).
+They're identical to the zips already read (same 61 PDF checksums).
+
 ## Unread or missing
 
 - Nothing from the two zips is unread.
