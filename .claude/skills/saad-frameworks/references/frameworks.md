@@ -59,7 +59,8 @@ He emails both sides at the same time with plain copy [S01, S16].
 
 | Step | What happens | Topic file |
 |---|---|---|
-| 1. Pick a lane | Find an overlooked industry where two sides need each other and money is already moving, such as government-funded, legally required, penalty-driven or permanent demand | `markets.md` |
+| 1. Pick a lane | Find an overlooked industry where two sides need each other and money is already moving, such as government-funded, legally required, penalty-driven or permanent demand | `understanding-and-testing.md` | How he learns an unfamiliar market, the signals he watches when testing it, and keep, re-aim or drop rules |
+| `markets.md` |
 | 2. Find the trigger | Find the public data that shows something just changed, and who is about to buy | `markets.md` "Signals" |
 | 3. Decide who pays | Usually the side that already spends to acquire customers. Sometimes both sides, transparently | `offers-and-pricing.md` |
 | 4. Build both lists | About 100 to 1,000 per side, verified emails only | `markets.md`, `stack.md` |
@@ -80,6 +81,7 @@ He emails both sides at the same time with plain copy [S01, S16].
 | `closing-and-delivery.md` | Calls (when to use them, supply-call structure), close emails, transparency lines, Stripe product naming, the thesis brief, intro templates, post-intro management, case-study ask, continuation and retainer |
 | `stack.md` | Tools, sending settings, enrichment and verification, and his own products (disclosed) |
 | `agency-era.md` | His earlier agency material: the signals, personalization and pipelines worth keeping, and what not to copy |
+| `style-guide.md` | The tone, voice and communication rulebook, with a final quality check |
 | `voice-and-exclusions.md` | How he sounds, what to leave out, the honesty flags, and his income claims (claims only, not results) |
 | `source-index.md` | Every source S01–S61, its era and status |
 

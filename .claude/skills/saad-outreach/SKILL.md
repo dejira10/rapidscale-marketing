@@ -14,7 +14,8 @@ Use only Saad's material here. Outreach for Frankie and Aaron differs.
    - `references/closing-and-delivery.md` (closes, intros, after);
    - `references/offers-and-pricing.md` (offer wording, guarantee, language
      discipline, transparency line);
-   - `references/voice-and-exclusions.md` (tone and honesty flags).
+   - `references/style-guide.md` (**the tone rulebook**);
+   - `references/voice-and-exclusions.md` (honesty flags and exclusions).
 2. A lane brief from `saad-market-research`, or verified facts about the
    specific prospects on both sides.
 
@@ -47,7 +48,8 @@ If you don't know both sides and the trigger, run `saad-market-research` first.
    - no flattery or AI-sounding personalization.
 
    The personalization is the specific public fact.
-3. **Run the honesty check** (`voice-and-exclusions.md`). Every claim must be
+3. **Apply `style-guide.md`** and run its final quality check.
+4. **Run the honesty check** (`voice-and-exclusions.md`). Every claim must be
    true for the user, including:
    - "I have…";
    - "multiple";
@@ -56,10 +58,10 @@ If you don't know both sides and the trigger, run `saad-market-research` first.
    - scarcity and social proof.
 
    Rewrite or remove any you can't confirm, and list what needs confirming.
-4. **Never name the other party before payment.** Keep "language discipline":
+5. **Never name the other party before payment.** Keep "language discipline":
    no "my clients" or "we represent."
-5. If both sides pay, include the transparency line [S08].
-6. Output:
+6. If both sides pay, include the transparency line [S08].
+7. Output:
    - the draft(s);
    - the subject line(s);
    - the sequence timing;

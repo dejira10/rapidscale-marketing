@@ -14,6 +14,8 @@ moved. "The money is in the looking." [S06]
 Load `saad-frameworks` and read:
 
 - `references/frameworks.md`;
+- `references/understanding-and-testing.md` (how he learns a market and tests
+  it);
 - `references/markets.md` (selection lenses, signals, data sources, list
   rules);
 - `references/offers-and-pricing.md` §4 (pricing) and §5 (charging both sides).
@@ -86,6 +88,15 @@ Load `saad-frameworks` and read:
    `ad-spend-finder` helps find suppliers that already pay to acquire
    customers. `franchise-finder` helps with multi-location buyers.
 
+9. **Understand the market before you write a word** (`understanding-and-testing.md`
+   Part A): map the money already moving, find the hidden event, translate the
+   signal into pain, and collect the pain in their own words.
+10. **Design the test** (Part B): list size per side, the first emails (via
+    `saad-outreach`), follow-ups, dates, and which positive and warning signals
+    to watch.
+11. **After the test, decide** (Part C): keep, re-aim or drop, with the
+    evidence.
+
 ## Output: a lane brief
 
 For each lane:
@@ -103,6 +114,8 @@ For each lane:
 - **Risks and flags:** legal status (e.g. cannabis), privacy, harm-sensitive
   lanes, and saturation.
 - **The hand-off to `saad-outreach`:** the "I have X" line for each side.
+- **The market-test brief** from `understanding-and-testing.md`, filled in
+  as far as the facts allow.
 
 Every claim needs a source link or a frameworks citation. Mark anything
 inferred as **inferred**.

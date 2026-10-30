@@ -1,5 +1,8 @@
 # Saad — Voice, Exclusions and Honesty Flags
 
+The rulebook for tone is `style-guide.md`. This file holds the transcript
+evidence behind it, the exclusions and his claims.
+
 ## How Saad sounds (to inform tone, not to impersonate)
 
 - **Plain and short in cold copy.** "He who has the thing names it plainly."
