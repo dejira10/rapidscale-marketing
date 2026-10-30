@@ -1,39 +1,61 @@
 ---
 name: saad-frameworks
-description: Saad's training, methods and frameworks, distilled from source material Saad provided (videos, Looms, transcripts, docs). Use whenever work is done for or in the style of Saad, and load it before saad-market-research or saad-outreach. Do not use for Frankie, Saad or Aaron work other than Saad's.
+description: Saad Belcaid's connector method, distilled from 61 of his video transcripts. He sells access between two sides of an overlooked market instead of AI or meetings. Covers market selection (hidden, government-funded, penalty-based and permanent-demand industries, "what had to happen before this?"), public-data signals, two-sided offers with a replacement-only guarantee, first-principles pricing, charging both sides transparently, plain three-move copy, reply handling (watermelon rule), no-call close emails, intro templates, thesis briefs and post-intro management. Also covers his earlier agency-era pipelines, flagged as earlier. Use whenever work applies Saad's methods, and load it before saad-market-research or saad-outreach. Not for Frankie or Aaron.
 ---
 
 # Saad — Frameworks
 
-Saad looks for industries nobody else thinks to go into, and studies them differently. Capture that selection process precisely from his transcripts.
-
 This skill is the single source of truth for how Saad thinks and works. The
 other Saad skills (`saad-market-research`, `saad-outreach`) read from it.
 
-## Hard rule: source-only
+## Reference files
 
-Everything in `references/frameworks.md` must trace back to a file listed in
-`references/source-index.md`. If a framework, step, script line or number is
-not in a source you have read, it does not go in. When a source can't be opened
-(permission error, video with no transcript, connector down), log it in
-`source-index.md` as **unread** and tell the user; never fill the gap from
-general knowledge.
+| File | Read it when you need |
+|------|------|
+| `references/frameworks.md` | The model on one page, core beliefs, the 10-step system, and the contradictions between his eras. **Always read first.** |
+| `references/markets.md` | How he picks overlooked industries, the signal-to-pain table, the public data source catalog, list-building rules, and the lane catalog with his examples |
+| `references/offers-and-pricing.md` | Supply and demand offer templates, the replacement guarantee and contract wording, pricing from first principles, charging both sides, retainers, language discipline, the three-bucket filter |
+| `references/outreach.md` | The three-move copy formula, first emails by lane, subject lines, follow-ups, reply handling and examples |
+| `references/closing-and-delivery.md` | Routing matches, calls, the close email, keeping the other side warm, payment naming, the thesis brief, intro templates, after-intro management, personal brand |
+| `references/stack.md` | Tools and settings, with his own products disclosed |
+| `references/agency-era.md` | His earlier agency material: what to keep (signals, personalization, buyer insight) and what not to copy |
+| `references/voice-and-exclusions.md` | Tone, what to leave out, the honesty flags, and his income claims |
+| `references/source-index.md` | S01–S61 with era and status |
 
-## Workflow: adding a new source
+## Hard rules
 
-1. Add a row to `references/source-index.md` (title, link/location, type, date, status).
-2. Read the full source. For video (Loom, YouTube, Zoom) use the transcript; if
-   none is available, ask the user for one.
-3. Extract into `references/frameworks.md` under the right heading, tagging
-   each item with its source id, e.g. `[S1 @ 12:40]`.
-4. Keep Saad's own wording for scripts, objection handling and named steps.
-   Paraphrase only explanations.
-5. Mark contradictions between sources instead of resolving them silently.
-6. Mark the source **read** in the index.
+- **Source-only.** Everything in the references traces to a source in
+  `source-index.md`. If something isn't in a source that was read, it doesn't go
+  in. When a source can't be opened, log it as **unread** and tell the user.
+- **The connector era wins.** It overrides the earlier agency era wherever they
+  conflict. Never sell "AI," "automation" or "booked meetings" as Saad's offer.
+- **Honesty flags.** Never produce fabricated proof, false experience claims,
+  hidden double-charging, fake hand-sent signals or untrue scarcity, even though
+  some appear in his material. See `voice-and-exclusions.md`.
+- **His numbers are his claims.** Never present his income, reply rates or deal
+  prices as expected results.
+- **No profanity, no personal tangents, no impersonation.** Apply his
+  principles. Don't write as Saad.
+- **Compliance.** Follow CAN-SPAM for email. Get consent before SMS or
+  automated calls (TCPA). Cannabis lanes only where state-legal, and flag them
+  first.
 
 ## Workflow: applying the frameworks
 
-1. Read `references/frameworks.md` in full.
-2. Name the framework(s) you're applying and cite their source ids in your output.
-3. If the task needs something the frameworks don't cover, say so and ask,
-   rather than improvising in Saad's name.
+1. Read `references/frameworks.md`, then the topic file(s) the task needs.
+2. Name the framework(s) you're applying and cite their tags, e.g. "replacement
+   guarantee [S01, S13]."
+3. Check every claim in a draft against the user's real situation. Strip or
+   mark any claim the user hasn't confirmed.
+4. If the task needs something the frameworks don't cover, say so and ask the
+   user rather than improvising in Saad's name.
+
+## Workflow: adding a new source
+
+1. Add a row to `references/source-index.md` with the next ID (S62…).
+2. Read the full source. For video, use the transcript, and ask the user for one
+   if none exists.
+3. Add the points to the right topic file with the tag. Keep Saad's wording for
+   scripts and named steps, and paraphrase explanations.
+4. Mark the era (connector or agency) and any contradictions instead of
+   resolving them silently.

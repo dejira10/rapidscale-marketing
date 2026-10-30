@@ -1,37 +1,108 @@
 ---
 name: saad-market-research
-description: Market and industry research done Saad's way — choosing industries, sizing them, finding their problems and building a target list. Use when researching a market, niche or industry for Saad's services. Not for the other marketers; each has their own research skill.
+description: Market research done Saad's way. Find an overlooked two-sided market ("industries nobody would think to go into") where money is already forced to move, through government funding, legal requirements, penalties, permanent demand or a fresh public trigger. Then find the public data that shows who just changed, decide which side pays, build verified lists for both sides, and check the economics for pricing. Use when researching a market, niche or lane for Saad's connector method. Not for Frankie or Aaron.
 ---
 
 # Saad — Market Research
 
-Saad's research is deliberately different from Frankie's. He picks overlooked industries and goes deep into their world, what they're looking for and their problems. Use the selection and deep-dive criteria from his transcripts, not Frankie's.
+Saad's research isn't "pick a niche and find its pain points." He looks for two
+sides that need each other, and for the boring public data that shows who just
+moved. "The money is in the looking." [S06]
 
 ## Before you start
 
-1. Load `saad-frameworks` and read `references/frameworks.md`, especially
-   "How Saad picks markets" and "Research process".
-2. If those sections are empty, stop and tell the user what's missing. Fall back
-   to the generic research steps below only if the user says so, and label the
-   result **generic — not yet Saad's method**.
+Load `saad-frameworks` and read:
 
-## Research steps (fill in from Saad's frameworks)
+- `references/frameworks.md`;
+- `references/markets.md` (selection lenses, signals, data sources, list
+  rules);
+- `references/offers-and-pricing.md` §4 (pricing) and §5 (charging both sides).
 
-1. **Industry selection**: apply Saad's selection criteria and write down why
-   the industry passes or fails each one.
-2. **Industry deep dive**: how the businesses make money, typical deal size,
-   seasonality, buying triggers, who decides, and where they gather (associations,
-   forums, trade shows, Facebook groups, subreddits).
-3. **Problems**: what these owners actually complain about, quoted from reviews,
-   forums and calls with a link for each. Rank by how often they come up and
-   how much they hurt.
-4. **Fit to Saad's offer**: which problems the offer solves, and which it doesn't.
-5. **Target list**: use `ad-spend-finder` (companies already paying for ads)
-   and `franchise-finder` (franchise systems and their owners) as needed.
+## Steps
 
-## Output
+1. **Generate candidate lanes.** Run the selection lenses in `markets.md` §1
+   and note which lens produced each idea:
+   - "What does the government give money to? Work backwards." [S06]
+   - "What is someone forced to pay for?" [S01]
+   - "Who just got publicly penalized, with a deadline, and needs a
+     specialist?" [S33]
+   - "What do businesses buy every week, forever?" [S08]
+   - "What had to happen before this?" Keep descending to the hidden event
+     [S13].
+   - "Who just lost a public bid?" [S06, S09]
+   - Problems from the user's own life [S10, S14].
+2. **Name both sides** for each lane: demand (the buyer with the need) and
+   supply (the seller who wants that buyer). Write one plain sentence: "{A}
+   needs {X}; {B} sells {X} and struggles to find {A} at the right moment."
+3. **Score each lane** against:
+   - the four ingredients [S40]: demand spikes, competing suppliers, cost of
+     delay, timing asymmetry;
+   - the "vibe check" [S14]: does it already spend money and invoice for work?
+   - the penalty formula, where relevant [S33]: public shame, clock pressure,
+     can't fix it alone, specialists bad at sales;
+   - how rarely pitched the contacts are (Gmail or Yahoo addresses, no
+     outbound) [S03, S10].
 
-A brief with: the industry verdict and the criteria behind it, the problem list
-with evidence links, the angle for `saad-outreach`, and the target list. Every
-claim needs a source link or a frameworks citation. Mark anything inferred as
-**inferred**.
+   Mark each criterion **pass / fail / unknown**, with evidence.
+4. **Find the trigger data.** Look for a public source that timestamps the
+   change: licenses, permits, registrations, trademark filings, procurement
+   awards, enforcement actions, funding announcements or job posts. Use the
+   catalog in `markets.md` §3 as a pattern library. For each lane, record:
+   - the source URL;
+   - the fields available (name, date, contact, amount);
+   - how fresh it is;
+   - the volume per week or month.
+
+   If no public source exists, say so. **Don't invent a database.**
+5. **Decide who pays** [S15, S16, S21]:
+   - the side that already spends to acquire customers;
+   - or the abundant side paying for access to the scarce side;
+   - or both, for different services (transparently).
+6. **Check the economics for pricing** with the four pricing questions [S15].
+   Find, with sources:
+   - typical contract or account size and margins;
+   - lifetime value or renewal rates;
+   - what the paying side currently spends to get customers (booths, ads,
+     brokers).
+
+   Turn that into a suggested non-round price range. Label it **suggested**,
+   not Saad's.
+7. **Learn the industry's words** from:
+   - the businesses' own websites;
+   - forums and Reddit (pain wording [S14]);
+   - RFPs and regulatory notices.
+
+   List 5–10 terms to use in copy, e.g. "wholesale accounts," "turnover,"
+   "crews."
+8. **Build both lists** using the rules in `markets.md` §4:
+   - 100–1,000 per side;
+   - titles that sign deals or hold the budget;
+   - exclude noise;
+   - 11–200 employees where relevant;
+   - verified emails only;
+   - a ledger to avoid repeats;
+   - one state or city first.
+
+   `ad-spend-finder` helps find suppliers that already pay to acquire
+   customers. `franchise-finder` helps with multi-location buyers.
+
+## Output: a lane brief
+
+For each lane:
+
+- **The lane:** demand ↔ supply in one sentence, and the lens that produced it.
+- **The scorecard:** each criterion marked pass, fail or unknown, with evidence
+  links.
+- **The trigger:** the data source, fields, freshness and volume (with links).
+- **Who pays:** for which service, and why.
+- **The suggested price** for each paying side, with the economics behind it.
+  Mark it **inferred** where it's an estimate.
+- **Industry vocabulary.**
+- **List spec:** filters for each side, titles, decision-maker fallback order,
+  and estimated counts.
+- **Risks and flags:** legal status (e.g. cannabis), privacy, harm-sensitive
+  lanes, and saturation.
+- **The hand-off to `saad-outreach`:** the "I have X" line for each side.
+
+Every claim needs a source link or a frameworks citation. Mark anything
+inferred as **inferred**.
