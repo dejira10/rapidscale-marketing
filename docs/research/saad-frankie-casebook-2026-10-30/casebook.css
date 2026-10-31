@@ -1,0 +1,73 @@
+
+:root{--ink:#152637;--muted:#627080;--rule:#dce3e9;--blue:#004AAD;--pale:#f2f6fb;--paper:#fff;--sidebar:#f8fafc}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);background:var(--paper);font:15px/1.72 Calibri, 'Segoe UI',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.site-header{display:flex;align-items:center;justify-content:space-between;gap:18px;height:64px;padding:0 34px;background:#0f2337;color:white;letter-spacing:.07em;font-size:12px;text-transform:uppercase}
+.site-header .mark{font-weight:750;letter-spacing:.14em}
+.site-header .edition{color:#bac6d3;letter-spacing:.03em;font-weight:400}
+.layout{display:grid;grid-template-columns:264px minmax(0,1fr);min-height:calc(100vh - 64px)}
+.sidebar{background:var(--sidebar);border-right:1px solid var(--rule);padding:36px 19px 40px 25px}
+.sticky{position:sticky;top:24px;max-height:calc(100vh - 40px);overflow-y:auto;scrollbar-width:thin}
+.sidebar-label{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:var(--blue);font-weight:800;margin:0 0 18px}
+.sidebar a{display:flex;gap:11px;align-items:baseline;padding:7px 6px;text-decoration:none;color:#35485c;font-size:12px;line-height:1.3;border-radius:5px}
+.sidebar a:hover{background:#e7eef7;color:var(--blue)}
+.nav-num{color:var(--blue);font-weight:750;font-size:11px;flex-shrink:0;min-width:24px}
+.main-content{width:100%;max-width:1000px;margin:0 auto;padding:52px 76px 130px}
+.cover{border-bottom:1px solid var(--rule);padding-bottom:37px;margin-bottom:48px}
+.eyebrow{color:var(--blue);font-size:11px;font-weight:800;letter-spacing:.19em;text-transform:uppercase;margin-bottom:25px}
+.cover h1{font-size:52px;line-height:1.04;letter-spacing:-.048em;margin:0 0 15px;color:#172a40;max-width:680px;font-weight:750}
+.deck{font-size:19px;line-height:1.4;color:#49586a;max-width:700px;margin:0 0 22px}
+.metadata{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#6a7785}
+article>h1, article>h2{font-size:26px;letter-spacing:-.025em;line-height:1.2;color:#172a40;margin:58px 0 18px}
+article>h2{border-top:1px solid var(--rule);padding-top:25px}
+article>h3{font-size:18px;color:#17304a;margin:28px 0 10px}
+article p{margin:0 0 14px}
+article ul,article ol{padding-left:23px;margin:0 0 22px}
+article li{padding-left:4px;margin-bottom:8px}
+article strong{color:#122a42;font-weight:700}
+article em{color:#374a5f}
+article a{color:var(--blue)}
+article blockquote{margin:22px 0 29px;border-left:3px solid var(--blue);padding:15px 22px;background:var(--pale);color:#284158;font-size:14px;line-height:1.65}
+article blockquote p:last-child{margin-bottom:0}
+.case{padding-top:12px;margin-top:27px;border-top:2px solid #cedce8}
+.case-heading{font-size:25px;color:#173048;line-height:1.25;letter-spacing:-.022em;margin:26px 0 17px;scroll-margin-top:24px}
+.case h3{color:#153953;font-size:14px;font-weight:750;text-transform:uppercase;letter-spacing:.045em;line-height:1.4;margin:29px 0 11px}
+.case p{line-height:1.74}
+.part-heading{background:#f2f6fb;padding:19px 22px;margin:55px 0 26px!important;border-left:4px solid var(--blue);font-size:23px!important}
+.table-wrap{width:100%;overflow-x:auto;margin:22px 0 26px}
+table.data-table{width:100%;border-collapse:collapse;text-align:left;font-size:13px;line-height:1.47}
+table.data-table th{border-top:2px solid #214b79;border-bottom:1px solid #b8c7d7;background:#f5f8fc;color:#223b55;padding:11px 12px;font-weight:750;vertical-align:top}
+table.data-table td{border-bottom:1px solid #e1e8ee;padding:10px 12px;vertical-align:top}
+table.data-table tr:nth-child(even) td{background:#fafcfe}
+hr{border:0;border-top:1px solid var(--rule);margin:34px 0}
+.footer-web{margin:65px 0 0;border-top:1px solid var(--rule);padding-top:17px;font-size:12px;color:#647489}
+@media(max-width:1000px){.layout{grid-template-columns:1fr}.sidebar{display:none}.main-content{max-width:860px;padding:38px 38px 80px}.cover h1{font-size:44px}}
+@media(max-width:620px){.site-header{padding:0 18px}.site-header .edition{display:none}.main-content{padding:25px 21px 66px}.cover h1{font-size:37px}.deck{font-size:17px}.case-heading{font-size:22px}}
+@page{size:Letter;margin:.69in .72in .65in;@bottom-left{content:'SAAD × FRANKIE   |   EVIDENCE EDITION';font:8px Calibri,Arial,sans-serif;color:#6b7a8a;letter-spacing:1px} @bottom-right{content:counter(page);font:9px Calibri,Arial,sans-serif;color:#6b7a8a}}
+@media print{
+ body{font-size:10.5pt;line-height:1.48;color:#1a2e42;background:#fff}
+ .site-header,.sidebar,.footer-web{display:none!important}
+ .layout{display:block;min-height:0}.main-content{padding:0;max-width:none}
+ .cover{padding:0 0 24px;margin:0 0 29px}
+ .eyebrow{font-size:8.5pt;margin-bottom:22px}
+ .cover h1{font-size:37pt;line-height:1.03;margin-bottom:13px}
+ .deck{font-size:14pt;margin-bottom:18px}
+ .metadata{font-size:8pt}
+ article>h1,article>h2{font-size:18pt;margin:28px 0 11px;break-after:avoid}
+ article>h3{font-size:12pt;break-after:avoid}
+ article p{margin-bottom:7px;orphans:3;widows:3}
+ article ul,article ol{margin-bottom:11px}
+ article li{margin-bottom:4px}
+ article blockquote{font-size:9.2pt;padding:8px 14px;margin:12px 0 15px}
+ .case{margin-top:22px;padding-top:13px;break-before:page;border-top:0}
+ .case-heading{font-size:19pt;margin:0 0 13px;break-after:avoid}
+ .case h3{font-size:9.1pt;margin:18px 0 6px;break-after:avoid}
+ .case p{line-height:1.53}
+ .part-heading{margin:27px 0 20px!important;padding:13px 15px;font-size:17pt!important;break-after:avoid}
+ .table-wrap{overflow:visible;margin:10px 0 15px}
+ table.data-table{font-size:8.2pt;line-height:1.3}
+ table.data-table th,table.data-table td{padding:6px 7px}
+ table.data-table tr{break-inside:avoid}
+ a[href]:after{content:''}
+ }
