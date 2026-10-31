@@ -15,7 +15,7 @@
 |---|---|---|
 | Market thesis | Buildings with big power bills want lower bills; solar installers want large roofs | Assumed |
 | Data | City **building energy benchmarking reports** (e.g. Los Angeles), which list energy use per building and sometimes a contact name and email | Public, verified source |
-| Price logic | $3,700: "high enough … to be good money, low enough to need no trust." He wanted "the opportunity itself to do the selling, not my reputation" | His reasoning |
+| Price logic | $3,700: "High enough that this is still good money, but low enough that you don't need like a giant pile of trust to justify it." He wanted "the opportunity itself to do the selling, not my reputation" | His reasoning |
 | What he did **not** know | Which building would reply, or what that building needed | Unknown at send time |
 
 **Honesty level at send time:** buyer side = level 2 (a public signal: big energy users); supplier side = level 2 (the same list).

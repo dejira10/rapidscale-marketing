@@ -84,3 +84,11 @@ These sources show replies or partial threads but not full deals. They're kept s
   - "send me a proposal."
 - **Already analyzed** in the objection notes (in the drafts). **Do not copy:** "doubling down" when called out, using pressure, "not really" in answer to "any hidden fees?", and the vague credentials.
 - **Status:** **role-play.** Never count it as a real outcome.
+
+---
+
+## A21.7: Agency era: replies shown without a close (S57, S59)
+
+- **S57** (an n8n system, "intro" offer): four positive replies shown, including one that came within a minute ("Yes, that would be amazing"). His follow-up line: "Hey {first}, following up on my last note… I'll assume timing is not right at the moment." Subject: "{company} intros." His lesson: no case study is needed when the offer is exactly what they want.
+- **S59** (companies hiring outbound sales reps, contacting sales managers): three positive replies in under three hours. One: "Hands down the best cold email I've received in a while. Timing is great too. We've just onboarded a few reps…" Another asked: "**Do you have a deck or case study you can share?**" Be ready with honest proof or a short written overview.
+- **Do not copy:** S59's "17× more than a typical SDR" claim (unverified).

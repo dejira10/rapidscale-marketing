@@ -13,7 +13,7 @@
 | Item | Detail |
 |---|---|
 | Data | City open-data **short-term-rental registrations** (New Orleans): new and pending registrations, permit and license numbers, operator name and email. "Almost nobody knows about it." Hosts are mostly on Gmail |
-| Who pays | "In what planet will a host pay $3,000 for access to cleaners? Cleaners would." Cleaners already run ads to reach hosts |
+| Who pays | "In what planet a host will pay $3,000 to access cleaners? But cleaners would definitely pay a lot of money." Cleaners already run ads to reach hosts |
 | Price | A $2,000–4,000 range; he chose $3,000 by judgment: "There's no formula; pretending otherwise is one of the most common lies in this space" |
 | His filter (later proven wrong) | Skip hosts who already have a cleaner |
 | Honesty level at send | Level 2 |
@@ -39,7 +39,7 @@ He uses the industry's terms: turnover, changeover, short-stay.
 | # | From | What was said (exact) | What it revealed |
 |---|---|---|---|
 | 1 | Host (Stacy) | "Hey, I've never received an email from you before. Fair. **Are you with the city?** To answer your question, it depends. I have an 8-bedroom duplex and it's just too much for my current cleaner to keep up with, because guests sometimes check in the same day. Let me know if you have anyone, and **seriously, let me know how you got this email, LOL.**" | A real need, **despite already having a cleaner**. Two trust questions: "are you with the city?" and "how did you get my email?" |
-| 2 | Saad's lesson | "Apparently the wall didn't give a shit. It had a different answer … this is exactly why you should send the emails instead of trying to predict everything beforehand." A cleaner "can mean … they're overloaded, they miss Sundays, maybe they need a backup" | **His filter was wrong.** Recurring services are about capacity, not whether they already have one |
+| 2 | Saad's lesson | "Apparently the wall didn't give a [expletive]. It had a different answer … this is exactly why you should send the emails instead of trying to predict everything beforehand." A cleaner "can mean … they're overloaded, they miss Sundays, maybe they need a backup" | **His filter was wrong.** Recurring services are about capacity, not whether they already have one |
 | 3 | Cleaner (Angie, a New Orleans maid service) | "…[we're taking new] properties right now. Send us where the properties are and how often they're turning over. We can work with recurring schedules or last-minute cleanings too, depending on the day. We normally do flat rates for this type of work." | Capacity; wants recurring work |
 | 4 | Saad → cleaner: close (§4) | | |
 | 5 | Saad → host: warm-up (§4) | | |

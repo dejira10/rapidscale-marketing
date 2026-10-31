@@ -12,7 +12,7 @@
 
 - **Why this market:**
   - Studios already spend to hunt for clients, and they bill their own clients upfront (about 75% on award), so they don't resist paying upfront.
-  - Brands already have budget set aside; "the question is only who makes it."
+  - Brands already have budget set aside; the only question is who produces the content.
   - He calls it one of the best markets for a first customer.
 - **Data:**
   - **Studios:** AICP (production association) directories and UK production trade shows.
@@ -60,7 +60,7 @@ His reasoning: "She pays nothing. But I get something that will get me more Jess
 
 - Set a ~24-hour reminder. If nothing's been heard, send one human message at about 7 am their time: "Hey X, hope you're well. How did the conversation with Y go?"
 - Classify the outcome: did they speak, did they like each other, are they discussing work? If yes, leave them alone and check back in a few days.
-- Track lightly (he uses Linear): who was introduced and when, did they speak, did it become a project, its approximate value, whether it's usable as a case study. "Don't build a CRM before your first 3–5 customers."
+- Track lightly (he uses Linear): who was introduced and when, did they speak, did it become a project, its approximate value, whether it's usable as a case study. "You don't need the CRM if you don't have your first three or five customers."
 - Repeat sale: "Hey, got another one that looks like your kind of thing. Want me to send it over?"
 
 ## 6. Decision analysis

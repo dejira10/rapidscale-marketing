@@ -72,5 +72,5 @@ His note on the deliverable: "So now they can imagine the actual delivery. It's 
 
 **Do not copy:**
 
-- "I run [business] and basically what I do is find oil companies that need outside crews…" He admits on camera: "There's some bullshit here … I started doing this today, but I can say that technically." That's an overclaim. Truthful version: "I track new drilling permits in Texas and connect operators with crews that have capacity."
+- "I run [business] and basically what I do is find oil companies that need outside crews…" He admits on camera: "There's some [expletive] here … I started doing this today, but I can say that technically." That's an overclaim. Truthful version: "I track new drilling permits in Texas and connect operators with crews that have capacity."
 - "I've got a couple of crews in Texas" was sent at level 2.

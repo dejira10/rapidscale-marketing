@@ -10,7 +10,7 @@
 
 ## 1. What he knew before sending
 
-**His penalty-based market formula** ("every major industry has these sub-niches"):
+**His penalty-based market formula** ("every major industry on Earth has these penalty-based little sub-niches"):
 
 1. **Scrapable public shame:** the government publishes the company, the violation, the date and the penalty.
 2. **Clock pressure:** hard deadlines to respond.

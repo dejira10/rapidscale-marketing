@@ -10,8 +10,8 @@
 
 ## 1. What he knew before sending
 
-- **First-hand knowledge.** Saad owns a café, and knows owners "don't know which roaster to trust."
-- **His market lens:** permanent demand. Coffee is "a consumable bought weekly by both sides forever," so every café is a live buyer and no trigger event is needed.
+- **First-hand knowledge.** Saad owns a café, and knows owners "don't really know who to trust to bring you coffee that is actually good."
+- **His market lens:** permanent demand. Coffee is bought "this week and … next week and the week after that forever," so every café is a live buyer and no trigger event is needed.
 - **Offers he'd planned:**
   - **Café:** 2–3 roasters, with samples sent first, for $2,497.
   - **Roaster:** 3–6 cafés over 60–90 days, for $2,997–4,997.

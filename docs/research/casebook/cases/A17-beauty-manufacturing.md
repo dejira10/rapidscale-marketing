@@ -51,7 +51,7 @@ It's a 4-step sequence, with a daily limit of up to 1,000.
 
 He mapped each brand's need against each supplier's offer:
 
-- **A brand founder wanting simple haircare:** a no-minimum manufacturer **or** the turnkey manufacturer. "If [the first] gives us some bullshit, we can just send this intro to [the second]." That's his **leverage:** alternatives if one side stalls.
+- **A brand founder wanting simple haircare:** a no-minimum manufacturer **or** the turnkey manufacturer. "If [the first] gives us some [expletive], we can just send this intro to [the second]." That's his **leverage:** alternatives if one side stalls.
 - **A founder with two trademarks (likely several products):** the turnkey manufacturer, which "can help from the product idea": repeat business.
 - **Total potential:** 4 brands × $1,997, plus 5 manufacturers × $3,589–6,564, ≈ **$25.9k–40.9k**.
 

@@ -19,7 +19,7 @@
   - **Farms:** the state cannabis licensing database (license dates and numbers).
   - **Labs:** a list of licensed labs.
   - **A ledger** so nobody gets emailed twice.
-- **Industry knowledge:** "30 minutes before this, I didn't know shit about weed testing … I read the documents. It took me 30 minutes."
+- **Industry knowledge:** "30 minutes before this, I didn't know [expletive] about weed testing … I read the documents. It took me 30 minutes."
 - **Honesty level at send:** level 2.
 
 ## 2. The outreach (exact)
