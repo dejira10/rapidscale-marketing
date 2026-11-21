@@ -83,7 +83,9 @@ PACKAGE_LINES = [
     "**[Watch the video below]**",
 ]
 
-HYPE = ["10x", "skyrocket", "explode your", "guaranteed results", "crush it"]
+# Hype and banned phrases, including style-guide.md §15 (frankie-frameworks)
+HYPE = ["10x", "skyrocket", "explode your", "guaranteed results", "crush it",
+        "revolutionary solution", "unlock unprecedented growth", "act now", "limited spots"]
 
 
 def section(text, start_pat, end_pat=None):

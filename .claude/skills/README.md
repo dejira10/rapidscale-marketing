@@ -22,7 +22,7 @@ From the user's Saad guide (U1). Frankie explains the human buying decision.
 Saad finds the commercial event that creates the opportunity.
 
 ## Shared prospecting
-- `market-research-bot`: Frankie-style market research for any industry: a 9-part report (problems in their words, current channels, TIMER frustrations, unasked questions, competitors, ideal customers, agency fears, angles, positioning), then 3 handraisers, 1 Facebook ad and website copy. Modeled on observed runs of Frankie's "Market Research Bot v 2.0" GPT (`docs/research/market-research-bot/`).
+- `market-research-bot`: Frankie-style market research for any industry: a 9-part report (problems in their words, current channels, TIMER frustrations, unasked questions, competitors, ideal customers, agency fears, angles, positioning), then 3 handraisers, 1 Facebook ad and website copy. Modeled on observed runs of Frankie's "Market Research Bot v 2.0" GPT (`docs/research/market-research-bot/`). Locked format (`references/template.md` + `scripts/check_format.py`); copy follows Frankie's style guide.
 - `ad-spend-finder`: companies paying for Google/PPC, Meta and LinkedIn ads,
   plus a pixel-detection script.
 - `franchise-finder`: every franchise brand in an industry, then the locations

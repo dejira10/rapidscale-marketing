@@ -44,6 +44,18 @@ Other references:
 
 If the user gives the industry and service in the first message, skip straight through. Still deliver the report before the assets.
 
+## Tone: Frankie's style guide
+
+**All copy follows `frankie-frameworks/references/style-guide.md`** (the rulebook). The transcript evidence behind it is in `voice.md` in the same folder. Read both before writing.
+
+- **The template decides the structure; the style guide decides the voice inside it.** If they ever seem to conflict, keep the template's headings and counts and write the words in the style guide's tone.
+- **Where it matters most:**
+  - the quotes in their voice (§3–4: street level, their own words);
+  - the handraisers (§9: an invitation, not a pitch; a small, comfortable next step);
+  - the Facebook ad and website (§5–6: specific outcomes, the old way vs the new way).
+- **Lead with the result, not the tool** (§15). "Replacement calls in the slow season," not "we run Google Ads." Name the service only after the outcome.
+- **Before delivering message 3**, run the guide's **§17 Final Quality Check** on every handraiser, the ad and the website copy. Rewrite any piece that fails a question. The guide's principle: "be clear before clever. Be specific before persuasive."
+
 ## Rules
 
 - **Write in the customer's own words.** Problems and frustrations are written as things the owner would actually say ("I've got $40,000 in payroll coming Friday and we're still waiting on checks"). This is Frankie's "street level" symptom writing; see `frankie-frameworks/references/research.md`.
@@ -64,7 +76,7 @@ If the user gives the industry and service in the first message, skip straight t
 - **Sell the outcome, not the tool.** "Talk to commercial building owners, not homeowners looking for shingles," not "we run cold email."
 - **Fit the copy to the service named.** A connector or intro service is written differently from an ads service (see the roofing example).
 - **Compliance notes:** mention CAN-SPAM for email, and advertising rules for regulated niches (health, legal, finance).
-- **No profanity, no hype** ("10X," "skyrocket"), no impersonating Frankie.
+- **No profanity, no hype** ("10X," "skyrocket," "revolutionary solution," "unlock unprecedented growth"), no fake urgency, no impersonating Frankie (style guide §15).
 
 ## Output length
 
