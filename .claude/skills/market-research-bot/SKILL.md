@@ -9,17 +9,31 @@ This skill reproduces the **workflow and output format** of Frankie Fihn's "Mark
 
 It's **not** a copy of that GPT's hidden instructions or knowledge files, which weren't accessed. The GPT's replies named four knowledge files: "GPT Handraiser Formula," "Example Handraisers," "FB Ad 37 merge" and "GPT Website Copy Format." Where Frankie's method is needed, this skill uses `frankie-frameworks` instead.
 
-The full reference and examples are in:
+## The format is locked
 
-- `references/output-format.md`: the exact section structure, with what goes in each part;
-- `references/examples.md`: abridged real outputs (roofing and dentists).
+**Every run must follow `references/template.md` exactly.** Read it before every run. Copy every heading, label and fixed line word for word. Fill only the slots. Don't add, drop, rename or reorder sections. The counts are exact: 5 problem groups, 8 channels, 10 questions, 8 fears, 3 angles, 5 message rows, 3 handraisers, 6 Old Way bullets, 5 steps, 5 FAQs, 3 principles.
 
-Read both before running.
+This is stricter than Frankie's GPT, which changes its own headings between runs. The template keeps the content of both observed runs in one fixed shape.
+
+**Check before delivering.** When the output is saved to a file, run:
+
+```
+python3 .claude/skills/market-research-bot/scripts/check_format.py <file> --report    # message 2
+python3 .claude/skills/market-research-bot/scripts/check_format.py <file> --package   # message 3
+```
+
+Fix anything it reports, then deliver. In chat, check the output against the template's headings and counts before sending.
+
+Other references:
+
+- `references/output-format.md`: notes on what the real GPT produced in each run, and how its two runs differed;
+- `docs/research/market-research-bot/example-locked-format-hvac.md`: a complete run in the locked format (passes the checker);
+- `references/examples.md`: abridged real outputs (roofing and dentists), for tone and depth only. **The template, not the examples, decides the format.**
 
 ## The flow (always in this order)
 
 1. **Ask who they serve, and only that.** "Who do you serve? Just give me the type of business (dentists, roofers, med spas…)." Don't ask anything else first.
-2. **Write the market research report** (9 parts, see `output-format.md`). Then offer the next step, the marketing assets, and ask **what service they sell to this market** (Google Ads, SEO, Facebook ads, cold email, appointment setting, qualified introductions, a combination).
+2. **Write the market research report** (9 parts, exactly as in `template.md`). Then offer the next step, the marketing assets, and ask **what service they sell to this market** (Google Ads, SEO, Facebook ads, cold email, appointment setting, qualified introductions, a combination).
 3. **Once they name the service,** write the marketing package:
    - the core offer;
    - **3 handraisers**, each on a different symptom, with a recommendation of which to test first;
@@ -54,7 +68,7 @@ If the user gives the industry and service in the first message, skip straight t
 
 ## Output length
 
-The real GPT writes long: about 18,000 characters for the report and about 20,000 for the assets. Match that depth by default. If the user asks for a short version, keep all 9 report parts but use 2–3 bullets each.
+The real GPT writes long: about 18,000 characters for the report and about 20,000 for the assets. The template's fixed counts produce similar depth. There's no short mode: the format is the same every time.
 
 ## Using it with the other skills
 

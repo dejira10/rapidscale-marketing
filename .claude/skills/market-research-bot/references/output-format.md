@@ -1,5 +1,7 @@
 # Output Format (observed in both test runs)
 
+> **Observation notes, not the format to follow.** The locked format is `template.md`. The GPT's two runs differed in their title ("Market Research: Commercial Roofing Contractors" vs "Dental Practice Market Research"), section 2 and 9 headings, table columns, the package title, and whether a core-offer block appeared. The template fixes one version.
+
 The same structure appeared for commercial roofing contractors (run 1) and dentists (run 2). `[industry]` means the business type the user gave.
 
 ## Part A: Market research report
