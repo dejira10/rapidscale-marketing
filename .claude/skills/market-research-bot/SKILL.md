@@ -11,9 +11,9 @@ It's **not** a copy of that GPT's hidden instructions or knowledge files, which 
 
 ## The format is locked
 
-**Every run must follow `references/template.md` exactly.** Read it before every run. Copy every heading, label and fixed line word for word. Fill only the slots. Don't add, drop, rename or reorder sections. The counts are exact: 5 problem groups, 8 channels, 10 questions, 8 fears, 3 angles, 5 message rows, 3 handraisers, 6 Old Way bullets, 5 steps, 5 FAQs, 3 principles.
+**Every run must follow `references/template.md` exactly.** Read it before every run. Copy every heading, label and fixed line word for word, including the bold markers. Fill only the slots. Don't add, drop, rename or reorder sections. The counts are exact. Report: 7 problem groups (A–G, with E = tire kickers and F = seasonality), 10 channels, 5 TIMER lines, 12 questions, 6 national competitors, 7 ideal clients, 8 offerings, one illustrative value calculation, 5 fear groups, 3 opportunities and 5 message rows. Package: 3 handraisers, 6 Old Way bullets, 5 steps, 5 FAQs and 3 principles.
 
-This is stricter than Frankie's GPT, which changes its own headings between runs. The template keeps the content of both observed runs in one fixed shape.
+The report format comes from the user's reference run for wealth management (`docs/research/market-research-bot/run3-wealth-management.md`). It's stricter than Frankie's GPT, which changes its own headings between runs.
 
 **Check before delivering.** When the output is saved to a file, run:
 
@@ -27,14 +27,15 @@ Fix anything it reports, then deliver. In chat, check the output against the tem
 Other references:
 
 - `references/output-format.md`: notes on what the real GPT produced in each run, and how its two runs differed;
-- `docs/research/market-research-bot/example-locked-format-hvac.md`: a complete run in the locked format (passes the checker);
+- `docs/research/market-research-bot/run3-wealth-management.md`: the user's reference report the template is built from;
+- `docs/research/market-research-bot/test-wealth-management.md`: a complete report written by this skill in the locked format (passes the checker);
 - `references/examples.md`: abridged real outputs (roofing and dentists), for tone and depth only. **The template, not the examples, decides the format.**
 
 ## The flow (always in this order)
 
 1. **Ask who they serve, and only that.** "Who do you serve? Just give me the type of business (dentists, roofers, med spas…)." Don't ask anything else first.
-2. **Write the market research report** (9 parts, exactly as in `template.md`). Then offer the next step, the marketing assets, and ask **what service they sell to this market** (Google Ads, SEO, Facebook ads, cold email, appointment setting, qualified introductions, a combination).
-3. **Once they name the service,** write the marketing package:
+2. **Write the market research report** (9 parts, exactly as in `template.md`). End with the two closing questions: **what service they offer** and **which segment of the industry to target**.
+3. **Once they name the service and target,** write the marketing package:
    - the core offer;
    - **3 handraisers**, each on a different symptom, with a recommendation of which to test first;
    - **1 Facebook ad**, with an image suggestion;

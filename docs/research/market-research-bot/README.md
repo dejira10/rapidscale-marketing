@@ -6,6 +6,8 @@ Full transcripts of two test conversations with Frankie Fihn's "Market Research 
 |---|---|---|
 | `run1-commercial-roofing.txt` | Commercial roofing contractors | Cold email outreach and qualified introductions to property owners |
 | `run2-dentists.txt` | Dentists | Facebook ads for implant consultations |
+| `run3-wealth-management.md` | Wealth management | Report only. Supplied by the user as **the reference format**; the skill's locked template is built from it |
+| `test-wealth-management.md` | Wealth management | Report only. Written by the skill (not the GPT) to test the locked format |
 
 They're the source for the skill `.claude/skills/market-research-bot/`.
 

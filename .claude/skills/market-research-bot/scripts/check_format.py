@@ -11,28 +11,35 @@ Exit code 0 = matches the locked format; 1 = something drifted (each problem is 
 import re
 import sys
 
+B = r"\*\*"  # headings in the report are bold, e.g. "## **1. Problems ...**"
+
 REPORT_HEADINGS = [
-    r"^# Market Research: .+$",
-    r"^## 1\. Problems .+ Face$",
-    r"^### Unqualified prospects that waste their time$",
-    r"^## 2\. How .+ Currently Get Customers$",
-    r"^## 3\. What Frustrates Them About Their Current Process \(TIMER\)$",
-    r"^## 4\. Questions They're Thinking but Rarely Ask$",
-    r"^## 5\. Competitors That Concern Them$",
-    r"^### National and large competitors$",
-    r"^### Local and regional competitors$",
-    r"^### Online platforms and lead sources$",
-    r"^## 6\. Their Most Desirable Projects, Services and Customers$",
-    r"^### What they want more of$",
-    r"^### Their ideal customers$",
-    r"^## 7\. Fears About Hiring a Marketing Agency$",
-    r"^### The biggest marketing objection$",
-    r"^## 8\. The Strongest Marketing Angles$",
-    r"^### Angle 1: .+$",
-    r"^### Angle 2: .+$",
-    r"^### Angle 3: .+$",
-    r"^## 9\. What This Means for Your Offer$",
-    r"^## Next: Turn This Research Into Marketing That Gets Responses$",
+    rf"^# {B}.+ Industry: Market Research & Customer Pain Points{B}$",
+    rf"^## {B}1\. Problems .+ face{B}$",
+    rf"^### {B}A\. .+{B}$",
+    rf"^### {B}B\. .+{B}$",
+    rf"^### {B}C\. .+{B}$",
+    rf"^### {B}D\. .+{B}$",
+    rf"^### {B}E\. Tire kickers and unqualified prospects{B}$",
+    rf"^### {B}F\. Inconsistent growth throughout the year{B}$",
+    rf"^### {B}G\. .+{B}$",
+    rf"^## {B}2\. How .+ currently generate business{B}$",
+    rf"^## {B}3\. Frustrations with their current processes: TIMER{B}$",
+    rf"^## {B}4\. Questions .+ aren't asking out loud{B}$",
+    rf"^## {B}5\. Competitors .+ worry about{B}$",
+    rf"^## {B}6\. Most desirable clients and services{B}$",
+    rf"^### {B}Most desirable offerings{B}$",
+    rf"^### {B}Why one qualified client can be valuable{B}$",
+    rf"^## {B}7\. Fears about hiring a marketing agency{B}$",
+    rf"^### {B}\"I've tried marketing before, and it didn't work\.\"{B}$",
+    rf"^### {B}\"I don't want .+ problems\.\"{B}$",
+    rf"^### {B}\"I don't want to damage my reputation\.\"{B}$",
+    rf"^### {B}\"I don't want more work unless it produces real business\.\"{B}$",
+    rf"^### {B}\"How do I know the agency is worth the money\?\"{B}$",
+    rf"^## {B}8\. The strongest marketing opportunities{B}$",
+    rf"^## {B}9\. Marketing messages most likely to resonate{B}$",
+    rf"^## {B}Next step: Turn this research into client-getting marketing{B}$",
+    rf"^## {B}Would you like me to create these marketing assets\?{B}$",
 ]
 
 PACKAGE_HEADINGS = [
@@ -58,20 +65,32 @@ PACKAGE_HEADINGS = [
 ]
 
 REPORT_LINES = [
-    "not direct interview quotations or verified survey findings",
-    "**Target market:**",
-    "**Marketing insight:**",
-    "Using the TIMER framework (Time, Identity, Money, Energy, Reputation)",
-    "**The deeper question:**",
-    "channels that create price pressure, not necessarily direct competitors",
-    "illustrative, not verified averages",
-    "The ranking is a strategic judgment, not measured market demand.",
-    "**The positioning I'd test first:**",
-    "**What service do you offer",
+    "Target audience:",
+    "don't simply need more leads. They need",
+    "These are research-informed market hypotheses, expressed in the language",
+    "rather than verified interview quotations.",
+    "Specific examples include:",
+    "| Current process | How it typically works | Main limitation |",
+    "These are the questions that can drive compelling marketing messages:",
+    "The most commercially important distinction is between",
+    "These are recognizable examples, not a location-specific competitive ranking.",
+    "**Online and technology competitors:**",
+    "**Local competitors:**",
+    "A significant concern is not necessarily that these competitors",
+    "Illustrative client segments and economics",
+    "| Ideal client | Why ",
+    "Not a profit or revenue guarantee.",
+    "these are three promising pain points to build offers around.",
+    "| Weaker, generic message | Stronger, symptom-specific angle |",
+    "**The most powerful overall positioning:**",
+    "The positioning should be adjusted to reflect the marketing service you actually deliver, with any outcome claims supported by evidence.",
+    "What service do you provide?",
+    "businesses do you want to target?",
 ]
 
 PACKAGE_LINES = [
     "**Your service:**",
+    "**Your target:**",
     "**Your strongest positioning:**",
     "avoids invented results",
     "**Angle:**",
@@ -124,28 +143,65 @@ def count(problems, label, got, want):
         problems.append(f"[{label}] expected {want}, found {got}")
 
 
+def bullets(block, quotes_only=False):
+    pat = r'^- "' if quotes_only else r"^- "
+    return len(re.findall(pat, block, re.M))
+
+
 def check_report(t, problems):
     check_order(t, REPORT_HEADINGS, "report", problems)
     for s in REPORT_LINES:
         if s not in t:
             problems.append(f"[report] fixed line missing: {s}")
-    s1 = section(t, r"^## 1\.", r"^### Unqualified")
-    count(problems, "1. problem groups A-E", len(re.findall(r"^### [A-E]\. ", s1, re.M)), 5)
-    count(problems, "1. 'What this looks like' blocks", s1.count("**What this looks like:**"), 5)
-    count(problems, "1. unqualified prospect rows", table_rows(section(t, r"^### Unqualified", r"^\*\*Marketing insight")), 5)
-    count(problems, "2. channel rows", table_rows(section(t, r"^## 2\.", r"^## 3\.")), 8)
-    s3 = section(t, r"^## 3\.", r"^## 4\.")
-    for w in ["TIME", "IDENTITY", "MONEY", "ENERGY", "REPUTATION"]:
-        if f"**{w}:**" not in s3:
-            problems.append(f"[3. TIMER] missing **{w}:**")
-    count(problems, "4. questions", len(re.findall(r"^\d+\. ", section(t, r"^## 4\.", r"^## 5\."), re.M)), 10)
-    count(problems, "6. 'want more of' bullets", len(re.findall(r"^- ", section(t, r"^### What they want more of", r"^### "), re.M)), 5)
-    count(problems, "6. ideal customer bullets", len(re.findall(r"^- ", section(t, r"^### Their ideal customers", r"^(\*Any|## )"), re.M)), 3)
-    count(problems, "7. fear rows", table_rows(section(t, r"^## 7\.", r"^### The biggest")), 8)
-    s8 = section(t, r"^## 8\.", r"^## 9\.")
-    count(problems, "8. 'Target outcome' lines", s8.count("**Target outcome:**"), 3)
-    count(problems, "8. 'Why it resonates' lines", s8.count("**Why it resonates:**"), 3)
-    count(problems, "9. message rows", table_rows(section(t, r"^## 9\.", r"^\*\*The positioning")), 5)
+    H = lambda L: rf"^### \*\*{L}\. "
+    want = {"A": 5, "B": 5, "C": 4, "D": 5, "F": 4, "G": 4}
+    nxt = {"A": "B", "B": "C", "C": "D", "D": "E", "E": "F", "F": "G"}
+    for L, n in want.items():
+        end = H(nxt[L]) if L in nxt else r"^## \*\*2\."
+        blk = section(t, H(L), end)
+        count(problems, f"1.{L} quotes", bullets(blk, True), n)
+        if "**Underlying pain:**" not in blk:
+            problems.append(f"[1.{L}] missing **Underlying pain:**")
+    e = section(t, H("E"), H("F"))
+    count(problems, "1.E tire-kicker examples", bullets(e), 6)
+    if "**Underlying pain:**" not in e:
+        problems.append("[1.E] missing **Underlying pain:**")
+    count(problems, "2. channel rows", table_rows(section(t, r"^## \*\*2\.", r"^## \*\*3\.")), 10)
+    s3 = section(t, r"^## \*\*3\.", r"^## \*\*4\.")
+    for w in ["Time", "Identity", "Money", "Energy", "Reputation"]:
+        if not re.search(rf'^\*\*{w} — ".+"\*\*$', s3, re.M):
+            problems.append(f'[3. TIMER] missing line: **{w} — "…"**')
+    count(problems, "4. questions", len(re.findall(r"^\d+\. ", section(t, r"^## \*\*4\.", r"^## \*\*5\."), re.M)), 12)
+    s5 = section(t, r"^## \*\*5\.", r"^## \*\*6\.")
+    if not re.search(r"^NATIONAL .+ COMPETITORS$", s5, re.M):
+        problems.append("[5] missing line: NATIONAL [INDUSTRY] COMPETITORS")
+    names = len(re.findall(r"^\*\*[^*:]+\*\*$", s5, re.M))
+    if names != 6 and "No other national names verified." not in s5:
+        problems.append(f"[5. national competitors] expected 6 (or the 'No other national names verified.' line), found {names}")
+    count(problems, "6. ideal client rows", table_rows(section(t, r"^## \*\*6\.", r"^### \*\*Most desirable")), 7)
+    count(problems, "6. desirable offerings", bullets(section(t, r"^### \*\*Most desirable offerings", r"^### ")), 8)
+    calc = section(t, r"^### \*\*Why one qualified client", r"^## \*\*7\.")
+    if not re.search(r"^ILLUSTRATIVE ", calc, re.M):
+        problems.append("[6. calculation] missing ILLUSTRATIVE … label")
+    count(problems, "6. calculation values", len(re.findall(r"^# \*\*.+\*\*$", calc, re.M)), 2)
+    fears = [(r'^### \*\*"I\'ve tried', 3), (r'^### \*\*"I don\'t want (?!to damage|more work)', 4),
+             (r'^### \*\*"I don\'t want to damage', 3), (r'^### \*\*"I don\'t want more work', 3),
+             (r'^### \*\*"How do I know', 4)]
+    for i, (pat, n) in enumerate(fears):
+        end = fears[i + 1][0] if i + 1 < len(fears) else r"^## \*\*8\."
+        count(problems, f"7. fear group {i+1} quotes", bullets(section(t, pat, end), True), n)
+    s8 = section(t, r"^## \*\*8\.", r"^## \*\*9\.")
+    count(problems, "8. opportunities", len(re.findall(r"^\*\*Opportunity \d: .+\*\*$", s8, re.M)), 3)
+    count(problems, "8. 'Potential offer' lines", s8.count("**Potential offer:**"), 3)
+    count(problems, "8. 'Quick-relief outcome' lines", s8.count("*Quick-relief outcome:*"), 3)
+    s9 = section(t, r"^## \*\*9\.", r"^\*\*The most powerful")
+    count(problems, "9. message rows", table_rows(s9), 5)
+    if not re.search(r"^> We help ", t, re.M):
+        problems.append("[9] positioning must be a quote line starting '> We help'")
+    tail = section(t, r"^## \*\*Would you like me")
+    svc = section(tail, r"^What service do you provide\?", r".*businesses do you want to target\?")
+    count(problems, "service options", bullets(svc), 6)
+    count(problems, "target options", bullets(section(tail, r".*businesses do you want to target\?")), 4)
 
 
 def check_package(t, problems):
@@ -180,6 +236,8 @@ def main():
         print(__doc__)
         sys.exit(2)
     t = open(sys.argv[1], encoding="utf-8").read()
+    t = re.sub(r"(?<=\S) {2,}", " ", t)  # ignore padding inside tables
+    t = re.sub(r"\|\s*-{3,}\s*", "|---", t)
     mode = sys.argv[2] if len(sys.argv) > 2 else "--report"
     problems = []
     if mode in ("--report", "--all"):

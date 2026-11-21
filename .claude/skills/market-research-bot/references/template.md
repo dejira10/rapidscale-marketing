@@ -1,11 +1,11 @@
 # Locked Output Template
 
-**This is the required format, used every time.** Copy every heading, label and fixed line exactly as written here. Fill only the `[slots]`. Don't add, drop, rename or reorder anything. The counts (5 problems, 10 questions, 3 angles…) are exact, not minimums.
+**This is the required format, used every time.** Copy every heading, label and fixed line exactly as written here, including the bold markers. Fill only the `[slots]`. Don't add, drop, rename or reorder anything. The counts (7 problem groups, 10 channels, 12 questions…) are exact, not minimums.
 
-- `[Industry]` = the business type the user gave, in Title Case and plural ("Commercial Roofing Contractors", "Dentists"). `[industry]` = the same in lowercase.
+- `[Industry]` = the business type in Title Case ("Wealth Management", "Commercial Roofing"). `[industry]` = the plural business name in lowercase ("wealth management firms", "commercial roofing contractors"). `[buyers]` = what the people are called ("advisors", "contractors", "dentists"). `[field]` = the industry name alone, in lowercase ("wealth management", "commercial roofing", "dental"). `[INDUSTRY]` = `[Industry]` in capitals.
 - Lines in `«…»` are instructions for what to write; don't print the `«»`.
-- Why it's locked: Frankie's GPT changes its own headings between runs (see `output-format.md`). This template keeps the content of both observed runs in one fixed order, so every run comes back the same shape.
-- The words inside each slot will differ by industry. That's expected: the structure is fixed, the research is specific.
+- **Source of the format:** the user's reference run for wealth management (`docs/research/market-research-bot/run3-wealth-management.md`), 2026-11-21. Message 3 keeps the format observed in runs 1 and 2.
+- The words inside each slot differ by industry. That's expected: the structure is fixed, the research is specific.
 
 The fixed lines are below, between the `=====` markers.
 
@@ -17,149 +17,236 @@ Who do you serve? Just give me the type of business (for example: dentists, roof
 
 ## MESSAGE 2 (the report)
 
-# Market Research: [Industry]
+# **[Industry] Industry: Market Research & Customer Pain Points**
 
-**Target market:** «one line: who exactly, size, region (default: United States)»
+Target audience: «3–5 segments of the industry, comma-separated, ending with "and …"».
 
-«Opening insight: exactly 3 short paragraphs. Paragraph 1 starts "Most [industry] don't simply want more" and names the distinction that matters. Paragraph 2 explains why. Paragraph 3 is one sentence on what they really want.»
+«One paragraph: why this market is attractive for marketing services, usually because of what one good customer is worth.»
 
-*These are industry-informed hypotheses and representative language from [industry], not direct interview quotations or verified survey findings.*
+However, **most [industry] don't simply need more leads. They need «what they really need, in one sentence».**
 
-## 1. Problems [Industry] Face
+Below is a breakdown of the problems, frustrations, buying motivations, and growth opportunities in this industry. These are research-informed market hypotheses, expressed in the language [buyers] might use, rather than verified interview quotations.
 
-«Exactly 5 problem groups, labeled A to E, in this form:»
+## **1. Problems [industry] face**
 
-### A. «Problem name»
-**What this looks like:**
+### **A. «problem name»**
+
 - "«quote in their voice»"
-- "«quote in their voice»"
-- "«quote in their voice»"
+«exactly 5 quotes»
 
-«One sentence explaining why it hurts.»
+**Underlying pain:** «one sentence»
 
-«…B, C, D, E in the same form…»
+### **B. «problem name»**
+«exactly 5 quotes, then **Underlying pain:**»
 
-### Unqualified prospects that waste their time
+### **C. «problem name»**
+«exactly 4 quotes, then **Underlying pain:**»
 
-| Unqualified prospect | What happens |
-|---|---|
-«exactly 5 rows»
+### **D. «problem name»**
+«exactly 5 quotes, then **Underlying pain:**»
 
-**Marketing insight:** «one sentence»
+### **E. Tire kickers and unqualified prospects**
 
-## 2. How [Industry] Currently Get Customers
+Specific examples include:
 
-| Current process | How it works | Main limitation |
-|---|---|---|
-«exactly 8 rows»
+- «a type of prospect and what they do: a description, not a quote»
+«exactly 6 bullets»
 
-«One sentence: they usually rely on a few relationships or channels, not a repeatable system.»
+**Underlying pain:** «one sentence»
 
-## 3. What Frustrates Them About Their Current Process (TIMER)
+### **F. Inconsistent growth throughout the year**
 
-Using the TIMER framework (Time, Identity, Money, Energy, Reputation), here is how these frustrations show up.
+«exactly 4 quotes about seasons, cycles or outside events, then **Underlying pain:**»
 
-**TIME:** "«quote»"
-«1–2 sentences»
+### **G. «losing customers, or the other biggest remaining problem»**
 
-**IDENTITY:** "«quote»"
-«1–2 sentences»
+«exactly 4 quotes, then **Underlying pain:**»
 
-**MONEY:** "«quote»"
-«1–2 sentences»
+«One sentence on who this matters most for.»
 
-**ENERGY:** "«quote»"
-«1–2 sentences»
+## **2. How [industry] currently generate business**
 
-**REPUTATION:** "«quote»"
-«1–2 sentences»
+| Current process | How it typically works | Main limitation |
+| --- | --- | --- |
+«exactly 10 rows»
 
-## 4. Questions They're Thinking but Rarely Ask
+«One sentence: many use several of these at once without knowing which one produces their most profitable customers.»
+
+## **3. Frustrations with their current processes: TIMER**
+
+**Time — "«quote»"**
+
+«2 sentences»
+
+**Identity — "«quote»"**
+
+«2 sentences»
+
+**Money — "«quote»"**
+
+«2 sentences»
+
+**Energy — "«quote»"**
+
+«2 sentences»
+
+**Reputation — "«quote»"**
+
+«2 sentences»
+
+## **4. Questions [industry] aren't asking out loud**
+
+These are the questions that can drive compelling marketing messages:
 
 1. "«question»"
-«…exactly 10 numbered questions in their voice…»
+«exactly 12 numbered questions in their voice»
 
-**The deeper question:** "«one question»"
+The most commercially important distinction is between **«what weaker marketing produces»** and **«what they actually need»**.
 
-## 5. Competitors That Concern Them
+## **5. Competitors [industry] worry about**
 
-### National and large competitors
-«Bullets. Name a company only if you're confident it exists; otherwise write "Large [type] groups (no specific names verified)".»
+These are recognizable examples, not a location-specific competitive ranking.
 
-### Local and regional competitors
-«Bullets of competitor types.»
+NATIONAL [INDUSTRY] COMPETITORS
 
-### Online platforms and lead sources
-«Bullets. End with: "These platforms are channels that create price pressure, not necessarily direct competitors."»
+**«Company name»**
 
-## 6. Their Most Desirable Projects, Services and Customers
+«one line: what they're known for»
 
-### What they want more of
-«Exactly 5 bullets: job, service or patient type, plus one line why.»
+«exactly 6 companies in this form. Name a company only if you're confident it exists and competes in this market. If you can't name 6 with confidence, list the ones you can, then write "No other national names verified." Never invent a company.»
 
-### Their ideal customers
-«Exactly 3 bullets.»
+**Online and technology competitors:** «one sentence of named platforms or types»
 
-*Any numbers above are illustrative, not verified averages.*
+**Local competitors:** «one sentence of competitor types»
 
-## 7. Fears About Hiring a Marketing Agency
+«One paragraph starting "A significant concern is not necessarily that these competitors provide better «service». It's that…"»
 
-| Fear | What they're thinking | Underlying concern |
-|---|---|---|
-«exactly 8 rows»
+## **6. Most desirable clients and services**
 
-### The biggest marketing objection
-"«one quote»"
+Illustrative client segments and economics; actual attractiveness depends on «the business's pricing, capacity and service model».
 
-«One sentence on the opportunity this objection reveals.»
+| Ideal client | Why [buyers] value them |
+| --- | --- |
+«exactly 7 rows»
 
-## 8. The Strongest Marketing Angles
+### **Most desirable offerings**
 
-These are offers to test, ranked by how directly they address persistent pain. The ranking is a strategic judgment, not measured market demand.
+- «service or project type»
+«exactly 8 bullets»
 
-### Angle 1: «name»
-**Target outcome:** «one line»
-**Why it resonates:** «one line»
+### **Why one qualified client can be valuable**
 
-### Angle 2: «name»
-**Target outcome:** «one line»
-**Why it resonates:** «one line»
+ILLUSTRATIVE «WHAT IS BEING CALCULATED, IN CAPITALS»
 
-### Angle 3: «name»
-**Target outcome:** «one line»
-**Why it resonates:** «one line»
+«Input label»
 
-## 9. What This Means for Your Offer
+# **«input value»**
 
-| Generic agency message | Stronger message for [industry] |
-|---|---|
+«Rate or multiplier label»
+
+«rate or multiplier»
+
+«Result label»
+
+# **«result value»**
+
+Simple illustration «state the assumption». Excludes «what it leaves out». Not a profit or revenue guarantee.
+
+«One sentence on why this explains what they'd pay to win one qualified customer.»
+
+## **7. Fears about hiring a marketing agency**
+
+### **"I've tried marketing before, and it didn't work."**
+
+«exactly 3 quotes»
+
+### **"I don't want «the industry's biggest risk» problems."**
+
+«exactly 4 quotes»
+
+«One or two sentences of context. For regulated industries, name the rules that apply (e.g. the SEC Marketing Rule and FINRA communications rules for advisors, health advertising rules, attorney advertising rules, CAN-SPAM for email).»
+
+### **"I don't want to damage my reputation."**
+
+«exactly 3 quotes»
+
+### **"I don't want more work unless it produces real business."**
+
+«exactly 3 quotes»
+
+### **"How do I know the agency is worth the money?"**
+
+«exactly 4 quotes»
+
+## **8. The strongest marketing opportunities**
+
+For an agency selling digital marketing services to [industry], these are three promising pain points to build offers around.
+
+**Opportunity 1: «pain point»**
+
+**Potential offer:** «one sentence»
+
+*Quick-relief outcome:* «one small, believable, near-term result»
+
+**Opportunity 2: «pain point»**
+
+**Potential offer:** «one sentence»
+
+*Quick-relief outcome:* «one sentence»
+
+**Opportunity 3: «pain point»**
+
+**Potential offer:** «one sentence»
+
+*Quick-relief outcome:* «one sentence»
+
+## **9. Marketing messages most likely to resonate**
+
+| Weaker, generic message | Stronger, symptom-specific angle |
+| --- | --- |
 «exactly 5 rows»
 
-**The positioning I'd test first:** «one sentence»
+**The most powerful overall positioning:**
 
-## Next: Turn This Research Into Marketing That Gets Responses
+> We help «industry segment» «outcome»—without «pain», «pain», or «pain».
 
-I can now create:
-- **3 handraiser posts**, each on a different everyday frustration;
-- **1 Facebook ad**, with the hook, copy, CTA and an image suggestion;
-- **Complete website copy**: headline, old way vs new way, how it works, case-study layouts, FAQ and About Us.
+The positioning should be adjusted to reflect the marketing service you actually deliver, with any outcome claims supported by evidence.
 
-I'll focus on achievable, near-term outcomes, not exaggerated promises.
+## **Next step: Turn this research into client-getting marketing**
 
-**What service do you offer [industry]?**
-- Google Ads / PPC
-- Facebook / Instagram ads
-- SEO / Google Maps
-- Cold email / outbound
-- Appointment setting / qualified introductions
-- Full-service (multiple channels)
-- Other / combination
+I can now create **3 handraiser posts, 1 Facebook ad (including an image concept), and complete website copy** specifically designed to sell your digital marketing services to [industry].
 
-## MESSAGE 3 (the marketing package, after the service is named)
+I'll use three different everyday symptoms, emphasize small and meaningful short-term outcomes, and follow the handraiser, Facebook ad, and website copy formats.
+
+## **Would you like me to create these marketing assets?**
+
+First, tell me what digital marketing service you offer so the promises and process match your business.
+
+What service do you provide?
+
+- Google Ads / SEO
+- Facebook / Instagram Ads
+- LinkedIn lead generation
+- Appointment setting / lead qualification
+- Full-service digital marketing
+- Other
+
+Which [field] businesses do you want to target?
+
+- «segment»
+- «segment»
+- «segment»
+- All [industry]
+
+Reply with both answers and I'll generate your marketing assets.
+
+## MESSAGE 3 (the marketing package, after the service and target are named)
 
 # [Industry] Marketing Package
 
 **Your service:** «restate their service in one line»
+
+**Your target:** «the segment they picked»
 
 **Your strongest positioning:** «one or two sentences»
 

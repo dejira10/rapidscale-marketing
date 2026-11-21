@@ -1,217 +1,330 @@
-<!-- Test run of the market-research-bot skill (locked format), 2026-11-21. Written by Claude following the skill; not output from Frankie's GPT. Industry content is hypotheses, not verified research. -->
+<!-- Test run of the market-research-bot skill in the locked format (template based on the user's reference run 3), 2026-11-21. Written by Claude following the skill; not output from Frankie's GPT. Industry content is hypotheses, not verified research. Passes scripts/check_format.py --report. -->
 
 Who do you serve? Just give me the type of business (for example: dentists, roofers, med spas).
 
 > User: Wealth management firms
 
-# Market Research: Wealth Management Firms
+# **Wealth Management Industry: Market Research & Customer Pain Points**
 
-**Target market:** independent wealth management firms and registered investment advisers (RIAs) with 1–20 advisors, serving individuals and families, United States.
+Target audience: Independent registered investment advisers (RIAs), solo and small-team financial planners, multi-advisor wealth management firms, and family-office-style boutiques.
 
-Most wealth management firms don't simply want more leads. They want more of the right households: people with real assets to manage, who stay for decades and send their friends.
+Wealth management is a strong market for marketing services because one good client can stay for decades. A family that moves $1.5 million to a firm can be worth more over its lifetime than a hundred small accounts, and the right client often refers others like them.
 
-An advisor with fifty new prospects who each have $40,000 to invest can be busier, and less profitable, than one who meets three families with $1.5 million each. The work is the same. The fee isn't.
+However, **most wealth management firms don't simply need more leads. They need more first meetings with households that meet their minimum, have a decision coming up, and are actually willing to move their money.**
 
-What they really want is a steady stream of introductions to people who are ready for advice, without feeling like a salesperson.
+Below is a breakdown of the problems, frustrations, buying motivations, and growth opportunities in this industry. These are research-informed market hypotheses, expressed in the language advisors might use, rather than verified interview quotations.
 
-*These are industry-informed hypotheses and representative language from wealth management firms, not direct interview quotations or verified survey findings.*
+## **1. Problems wealth management firms face**
 
-## 1. Problems Wealth Management Firms Face
+### **A. Meeting the wrong-size households**
 
-### A. Growth depends on referrals they can't control
-**What this looks like:**
-- "Almost every client we've got came from another client. I don't know how to make that happen on purpose."
-- "We had a great year, then three months of nothing."
-- "I'm not going to ask my clients for referrals at every meeting. It feels needy."
+- "Our minimum is $750,000, and the people who find us online have $60,000 and a lot of questions."
+- "I don't mind helping, but I can't run a firm on accounts that size."
+- "The people I really want to meet already have an advisor they've known for fifteen years."
+- "We do great work for business owners. I just don't know where to find more of them."
+- "I spent two hours on a plan last week for someone who was never going to transfer a dime."
 
-When referrals slow down, there's no backup plan.
+**Underlying pain:** Their time goes to people who can't or won't become profitable clients.
 
-### B. Too many small accounts
-**What this looks like:**
-- "I spent an hour with a guy who had $25,000 in a 401(k) and wanted free advice."
-- "Our minimum is $500,000, but the people who call us are at $80,000."
-- "I like helping everyone, but I can't build a business on accounts that size."
+### **B. Growing assets, flat take-home pay**
 
-Small accounts take the same time and pay a fraction of the fee.
+- "We passed $200 million and somehow I'm not making more than I did at $120 million."
+- "Software, compliance, insurance, rent: it all went up faster than our fees."
+- "I added a planner to grow, and now I'm working harder to cover their salary."
+- "Our small accounts eat as much service time as our biggest families."
+- "From the outside it looks like we're doing great. The owner's paycheck says otherwise."
 
-### C. Clients aging out
-**What this looks like:**
-- "Half my book is over 70. I'm going to a lot of funerals."
-- "When the parents pass, the kids move the money to their own advisor."
-- "I've never met most of my clients' children."
+**Underlying pain:** Overhead and too many small accounts keep AUM growth from turning into owner income.
 
-The book shrinks as clients die and their heirs leave.
+### **C. Capacity sitting idle**
 
-### D. Competing with low-fee options
-**What this looks like:**
-- "People ask me why they'd pay 1% when an app does it for almost nothing."
-- "Every prospect has a cousin who says just buy an index fund."
-- "It's hard to explain what I do in a way that's worth the fee."
+- "My associate advisor could handle thirty more families tomorrow."
+- "We built the service team for a bigger firm than we are."
+- "I'm paying for planning software seats nobody's using yet."
+- "We could take on another $25 million without hiring anyone."
 
-Advisors struggle to show their value beyond picking investments.
+**Underlying pain:** They're paying for capacity that isn't producing revenue.
 
-### E. No time to market
-**What this looks like:**
-- "Between client meetings, compliance and paperwork, marketing gets whatever's left, which is nothing."
-- "I post on LinkedIn once a quarter when I feel guilty."
-- "Every time I write something, compliance has to review it, so I just don't."
+### **D. Living on referrals**
 
-Marketing is the first thing dropped in a busy week.
+- "Every good client we have came from another client or a CPA."
+- "When a referral comes in, it's great. I just never know when the next one will."
+- "I hate asking my clients to send me their friends. It feels like I'm begging."
+- "Our CPA partners send work to three other firms too."
+- "If my two best referral sources retired, we'd be in trouble."
 
-### Unqualified prospects that waste their time
+**Underlying pain:** Growth depends on a few relationships they don't control.
 
-| Unqualified prospect | What happens |
-|---|---|
-| The free-advice seeker | Books a "consultation," gets a full plan, and does it themselves |
-| The below-minimum saver | Has enthusiasm and $30,000; doesn't fit the firm |
-| The rate shopper | Only wants to compare fees with three other firms |
-| The product buyer | Wants one annuity or insurance policy, not ongoing advice |
-| The spouse who isn't involved | One partner is interested; the decision maker never shows up |
+### **E. Tire kickers and unqualified prospects**
 
-**Marketing insight:** sell introductions to households with the assets and the need for ongoing advice, not more consultations.
+Specific examples include:
 
-## 2. How Wealth Management Firms Currently Get Customers
+- People who want a free portfolio review to confirm their current advisor is doing fine.
+- Prospects well below the firm's minimum who book "retirement consultations."
+- Homeowners whose wealth is almost all in real estate, with little to invest.
+- Webinar sign-ups who wanted the free checklist, not an advisor.
+- Prospects who ask about fees and past returns but won't share what they have.
+- Couples where one spouse is interested and the decision-maker never comes to a meeting.
 
-| Current process | How it works | Main limitation |
-|---|---|---|
-| Client referrals | Happy clients recommend the advisor to friends and family | Unpredictable volume |
-| CPA and attorney referrals | Accountants and estate attorneys send clients who need planning | Slow to build, often one-sided |
-| Custodian referral programs | Large custodians pass prospects to member advisors | Competitive and limited |
-| Seminars and dinner events | Educational events with a meal for local retirees | Expensive per attendee, attracts free-meal guests |
-| LinkedIn and social media | Posts, articles and connection requests | Time-consuming, every post needs compliance review |
-| Advisor-matching websites | Paid leads from sites that match consumers with advisors | Shared leads, price pressure |
-| Local networking and community | Rotary, chambers, charity boards, country clubs | Slow and depends on personality |
-| Workplace and 401(k) plans | Advising a company plan leads to individual employees | Long sales cycles |
+**Underlying pain:** Discovery meetings get booked with people who were never going to become clients.
 
-Most rely on referrals and relationships, not a repeatable system.
+### **F. Inconsistent growth throughout the year**
 
-## 3. What Frustrates Them About Their Current Process (TIMER)
+- "Everyone wants to talk in January and right before taxes. Summer is dead."
+- "When the market drops, the phone rings, but it's existing clients, not new ones."
+- "From Thanksgiving to New Year's, nobody makes a financial decision."
+- "Rough markets keep me so busy with current clients that prospecting just stops."
 
-Using the TIMER framework (Time, Identity, Money, Energy, Reputation), here is how these frustrations show up.
+**Underlying pain:** New business comes in waves tied to the calendar and the market, not their own effort.
 
-**TIME:** "I'm spending my evenings at seminars instead of with my family."
-Finding new clients eats the hours they'd rather spend serving existing ones.
+### **G. Assets walking out the door**
 
-**IDENTITY:** "I'm a fiduciary, not a salesman."
-Many advisors feel uncomfortable promoting themselves at all.
+- "We lost a $3 million household when the father passed and the kids went to their own advisor."
+- "Half our clients are now taking money out instead of putting it in."
+- "A big firm with a big name poached one of our oldest families."
+- "We need new assets every year just to stay even."
 
-**MONEY:** "We spent $6,000 on a dinner seminar and got one client with $200,000."
-Marketing spend is hard to connect to assets actually brought in.
+**Underlying pain:** Withdrawals, deaths and departures shrink the book unless new assets keep coming in.
 
-**ENERGY:** "Following up with people who said 'let me think about it' wears me out."
-Long decision cycles drain energy and focus.
+This matters most for firms whose clients are mostly retirees.
 
-**REPUTATION:** "One pushy email with my name on it could undo twenty years of trust."
-Their whole business runs on trust, so any marketing feels risky.
+## **2. How wealth management firms currently generate business**
 
-## 4. Questions They're Thinking but Rarely Ask
+| Current process | How it typically works | Main limitation |
+| --- | --- | --- |
+| Client referrals | Happy clients mention the firm to friends and family | Unpredictable timing and volume |
+| CPA and estate attorney relationships | Professionals send clients who need planning | Slow to build, often shared with other firms |
+| Retirement dinner seminars | Educational talks with a meal for local retirees | Expensive per attendee, attracts free-meal guests |
+| Community and charity involvement | Boards, clubs and local events | Many handshakes, few clients |
+| LinkedIn | Posts and connection requests to executives and owners | Time-consuming, every post needs compliance review |
+| Advisor-matching websites | Paid introductions from consumer advisor-match services | Shared prospects and fee pressure |
+| Google search and website | Local search for "financial advisor near me" | Competitive, attracts small accounts |
+| Newsletters and webinars | Educational content for clients and prospects | Hard to tie to new assets |
+| Paid ads | Google, Meta or LinkedIn campaigns | Brings inquiries that don't meet minimums |
+| Custodian and platform referrals | Prospects passed on by custodians or networks | Limited, competitive and sometimes fee-based |
 
-1. "How do the big firms keep getting clients I never even meet?"
-2. "Is my minimum too high, or am I just not reaching the right people?"
-3. "How do I get in front of people before they've already picked an advisor?"
-4. "What happens to my book when my oldest clients pass away?"
-5. "Why do CPAs refer to the firm down the street instead of me?"
-6. "Am I allowed to use client reviews now?"
-7. "Do the people who come to seminars ever actually hire anyone?"
-8. "How do I explain my fee to someone comparing me with an app?"
-9. "Should I specialize in one type of client?"
-10. "How do I meet my clients' children before they leave?"
+Many firms use five or six of these at once and can't say which one brought in their best households.
 
-**The deeper question:** "How do I keep growing without turning into the pushy salesperson I swore I'd never be?"
+## **3. Frustrations with their current processes: TIMER**
 
-## 5. Competitors That Concern Them
+**Time — "My calendar is full of meetings that go nowhere."**
 
-### National and large competitors
-- Large brokerage and advisory firms such as Edward Jones, Merrill and Morgan Stanley.
-- Low-cost advice from Vanguard, Fidelity and Charles Schwab.
-- Fast-growing private-equity-backed RIA groups buying smaller firms (no specific names verified).
+Advisors spend evenings at seminars and afternoons on discovery calls with people who never move their accounts. That time comes straight out of serving existing clients.
 
-### Local and regional competitors
-- The well-known local advisor with decades of referrals.
-- Bank and credit-union investment programs.
-- Insurance agents selling annuities as "retirement planning."
+**Identity — "I became an advisor to help people, not to sell."**
 
-### Online platforms and lead sources
-- Robo-advisors such as Betterment and Wealthfront.
-- Advisor-matching and lead websites.
-- These platforms are channels that create price pressure, not necessarily direct competitors.
+Many advisors are uncomfortable promoting themselves. Cold outreach and constant referral requests feel like the opposite of a fiduciary.
 
-## 6. Their Most Desirable Projects, Services and Customers
+**Money — "We keep spending, and the new assets don't show up."**
 
-### What they want more of
-- Households with $1 million+ in investable assets: one family can be worth more than twenty small accounts.
-- People retiring in the next 1–5 years: they need decisions made now.
-- Business owners planning a sale: a large, one-time event that needs advice.
-- Recently widowed or divorced clients: a change that requires a trusted advisor.
-- Clients' adult children: keeping the family's assets after the parents pass.
+Seminars, sponsorships, ads and staff all cost money every month. When they don't produce funded accounts, the pressure lands on the owner.
 
-### Their ideal customers
-- Pre-retirees in their late 50s and early 60s with sizable 401(k) and IRA balances.
-- Business owners in the 3–5 years before an exit.
-- Professionals (physicians, executives) with high income and no time to manage it.
+**Energy — "I'm running the firm and I'm still the only one bringing in clients."**
 
-*Any numbers above are illustrative, not verified averages.*
+Owners carry both the client relationships and the business development. That's tiring, and it makes it hard to step back.
 
-## 7. Fears About Hiring a Marketing Agency
+**Reputation — "One cheesy ad could undo twenty years of trust."**
 
-| Fear | What they're thinking | Underlying concern |
-|---|---|---|
-| Compliance | "If this breaks an SEC or FINRA rule, it's my license, not the agency's." | Regulatory risk |
-| Looking salesy | "I don't want ads that make me look like an infomercial." | Reputation |
-| Small-account leads | "They'll send me people with $20,000." | Wasted meetings |
-| No understanding | "They don't know the difference between an RIA and a broker." | Generic work |
-| Long contracts | "I'm not signing for a year to find out." | Being stuck |
-| No transparency | "I won't know which assets came from what they did." | Unclear return |
-| Shared leads | "Are three other advisors calling the same person?" | Racing competitors |
-| More work | "I don't have time to approve forty posts a month." | Owner's time |
+Their whole business runs on trust. Pushy messages or unsupported claims can damage a reputation that took decades to build.
 
-### The biggest marketing objection
-"Marketing doesn't work in this business. People hire advisors they trust, and trust comes from referrals."
+## **4. Questions wealth management firms aren't asking out loud**
 
-This shows an opening to sell warm introductions that feel like referrals, not cold leads.
+These are the questions that can drive compelling marketing messages:
 
-## 8. The Strongest Marketing Angles
+1. "Where do people with $1 million or more actually look for an advisor?"
+2. "How do I meet business owners before they sell, not after?"
+3. "Why would a wealthy stranger trust a firm they've never heard of?"
+4. "How do I stop waiting on CPAs to send me work?"
+5. "How do I find people who are unhappy with their current advisor?"
+6. "Why do so many first meetings end with 'let me think about it'?"
+7. "How do I keep my associate advisor busy enough to pay for themselves?"
+8. "Can I grow without hiring a full-time business development person?"
+9. "How do I compete with firms that sponsor stadiums?"
+10. "How would I even know if marketing brought in new assets?"
+11. "What can I say in marketing without getting in trouble with compliance?"
+12. "How do I replace the assets leaving every year?"
 
-These are offers to test, ranked by how directly they address persistent pain. The ranking is a strategic judgment, not measured market demand.
+The most commercially important distinction is between **booking more meetings** and **meeting households that go on to fund an account**.
 
-### Angle 1: Meet households near retirement before they pick an advisor
-**Target outcome:** introductions to pre-retirees above the firm's minimum.
-**Why it resonates:** it targets the right asset level at the moment they need advice.
+## **5. Competitors wealth management firms worry about**
 
-### Angle 2: Become the advisor CPAs and estate attorneys refer to
-**Target outcome:** two or three new referral relationships.
-**Why it resonates:** it builds the referral system they already trust, on purpose.
+These are recognizable examples, not a location-specific competitive ranking.
 
-### Angle 3: Keep the next generation
-**Target outcome:** meetings with clients' adult children.
-**Why it resonates:** it protects the existing book, which every advisor worries about.
+NATIONAL WEALTH MANAGEMENT COMPETITORS
 
-## 9. What This Means for Your Offer
+**Vanguard**
 
-| Generic agency message | Stronger message for wealth management firms |
-|---|---|
-| "We generate leads for financial advisors." | "Introductions to families within five years of retirement, above your minimum." |
-| "Grow your AUM." | "Meet business owners before they sell, not after they've chosen someone." |
-| "We run digital marketing campaigns." | "More referrals from CPAs and estate attorneys, without the golf." |
-| "Build your brand online." | "Content your compliance team can approve once and use all year." |
-| "Get more appointments." | "Fewer meetings with people below your minimum." |
+Low-cost funds and advisory services with a trusted name
 
-**The positioning I'd test first:** We introduce your firm to households approaching retirement who meet your minimum, before they've chosen an advisor.
+**Ameriprise Financial**
 
-## Next: Turn This Research Into Marketing That Gets Responses
+A large national network of advisors
 
-I can now create:
-- **3 handraiser posts**, each on a different everyday frustration;
-- **1 Facebook ad**, with the hook, copy, CTA and an image suggestion;
-- **Complete website copy**: headline, old way vs new way, how it works, case-study layouts, FAQ and About Us.
+**Raymond James**
 
-I'll focus on achievable, near-term outcomes, not exaggerated promises.
+National advisor network and private client services
 
-**What service do you offer wealth management firms?**
-- Google Ads / PPC
-- Facebook / Instagram ads
-- SEO / Google Maps
-- Cold email / outbound
-- Appointment setting / qualified introductions
-- Full-service (multiple channels)
-- Other / combination
+**Wells Fargo Advisors**
+
+Bank customers and a national brokerage presence
+
+**J.P. Morgan Wealth Management**
+
+Bank relationships and private client services
+
+**Edward Jones**
+
+Advisors in neighborhood offices across the country
+
+**Online and technology competitors:** Betterment, Wealthfront, Empower, and the digital advice services offered by large brokerages.
+
+**Local competitors:** Other independent RIAs, bank and credit-union investment programs, insurance agents selling annuities as retirement planning, and long-established local advisors.
+
+A significant concern is not necessarily that these competitors provide better advice. It's that prospects already know their names and may never think to look for an independent firm.
+
+## **6. Most desirable clients and services**
+
+Illustrative client segments and economics; actual attractiveness depends on the firm's fee schedule, minimums, capacity and service model.
+
+| Ideal client | Why advisors value them |
+| --- | --- |
+| Business owners 2–5 years from a sale | A large liquidity event and complex planning needs |
+| Pre-retirees with $1M–$5M | Retirement income decisions and long relationships |
+| Executives with stock compensation | Concentrated positions and tax planning |
+| Widowed or divorced clients with assets | A life change that needs a trusted advisor |
+| Heirs of existing clients | Keeping a family's assets across generations |
+| Physicians and specialists | High income and little time to manage it |
+| Households unhappy with their current advisor | Assets already invested and a reason to switch |
+
+### **Most desirable offerings**
+
+- Ongoing financial planning combined with investment management.
+- Retirement income and withdrawal planning.
+- Tax-aware investing and tax planning.
+- Business exit and succession planning.
+- Estate and legacy planning coordination.
+- Stock compensation and concentrated position planning.
+- Multigenerational family planning.
+- Family-office-style services for larger households.
+
+### **Why one qualified client can be valuable**
+
+ILLUSTRATIVE ANNUAL ADVISORY FEE FROM ONE HOUSEHOLD
+
+New household investable assets
+
+# **$1,500,000**
+
+Annual advisory fee
+
+0.90%
+
+Potential annual gross fee revenue
+
+# **$13,500**
+
+Simple illustration assuming the full amount is billed at one flat rate for a year. Excludes tiered fee schedules, market changes, withdrawals and the cost of serving the client. Not a profit or revenue guarantee.
+
+That's why an advisor may be willing to spend real money to win a few well-qualified households instead of hundreds of generic leads.
+
+## **7. Fears about hiring a marketing agency**
+
+### **"I've tried marketing before, and it didn't work."**
+
+- "The last company booked me a dozen meetings, and not one met our minimum."
+- "They sent reports full of clicks and impressions. I wanted to know about new assets."
+- "They treated someone who downloaded a checklist like someone ready to hire us."
+
+### **"I don't want compliance problems."**
+
+- "Do you understand what we can and can't say about performance?"
+- "Will every ad go through our chief compliance officer first?"
+- "Are you going to use testimonials without the right disclosures?"
+- "Who keeps the records if the SEC asks for them?"
+
+Registered investment advisers have to follow the SEC Marketing Rule, and broker-dealers and their representatives are also subject to FINRA's communications rules. Every piece of copy should be reviewed by the firm's compliance team before it runs.
+
+### **"I don't want to damage my reputation."**
+
+- "I'm not putting my name on anything that sounds like a get-rich-quick pitch."
+- "Our clients would cringe if they saw a pushy ad from us."
+- "I want to look like a premium firm, not a desperate one."
+
+### **"I don't want more work unless it produces real business."**
+
+- "Don't fill my calendar with people who can't hire us."
+- "My team doesn't have time to chase forty new leads a week."
+- "I want to know why each person wants to talk before they're on my calendar."
+
+### **"How do I know the agency is worth the money?"**
+
+- "What will it cost to bring in one funded household?"
+- "How long before this pays for itself?"
+- "Do I own the website, the ad accounts and the prospect list?"
+- "What happens if we stop working together?"
+
+## **8. The strongest marketing opportunities**
+
+For an agency selling digital marketing services to wealth management firms, these are three promising pain points to build offers around.
+
+**Opportunity 1: Discovery meetings with the wrong people**
+
+**Potential offer:** Pre-qualify prospects on asset range and planning need before they reach the advisor's calendar.
+
+*Quick-relief outcome:* The next discovery meeting is with a household that meets the minimum and has a stated reason for seeking advice.
+
+**Opportunity 2: Growth that depends on referrals**
+
+**Potential offer:** Build a compliance-reviewed way to reach new households that adds to, not replaces, existing referral relationships.
+
+*Quick-relief outcome:* A consultation request arrives from someone outside the firm's referral network.
+
+**Opportunity 3: Business owners approaching a sale**
+
+**Potential offer:** Run educational campaigns for owners planning an exit in the next few years.
+
+*Quick-relief outcome:* A business owner asks for a conversation about planning ahead of a sale.
+
+## **9. Marketing messages most likely to resonate**
+
+| Weaker, generic message | Stronger, symptom-specific angle |
+| --- | --- |
+| "Get more leads for your firm" | "Stop spending discovery meetings on households below your minimum." |
+| "Grow your AUM" | "Add a source of new households that doesn't depend on your CPA friends." |
+| "Scale your advisory practice" | "Give your associate advisor a full calendar of people you're built to serve." |
+| "More appointments" | "Meet business owners while they're still planning their sale." |
+| "Data-driven marketing" | "See which conversations turned into funded accounts." |
+
+**The most powerful overall positioning:**
+
+> We help independent wealth management firms meet more households that fit their minimums and have a real decision ahead—without depending entirely on referrals, sitting through unqualified meetings, or running ads that make them look like salespeople.
+
+The positioning should be adjusted to reflect the marketing service you actually deliver, with any outcome claims supported by evidence.
+
+## **Next step: Turn this research into client-getting marketing**
+
+I can now create **3 handraiser posts, 1 Facebook ad (including an image concept), and complete website copy** specifically designed to sell your digital marketing services to wealth management firms.
+
+I'll use three different everyday symptoms, emphasize small and meaningful short-term outcomes, and follow the handraiser, Facebook ad, and website copy formats.
+
+## **Would you like me to create these marketing assets?**
+
+First, tell me what digital marketing service you offer so the promises and process match your business.
+
+What service do you provide?
+
+- Google Ads / SEO
+- Facebook / Instagram Ads
+- LinkedIn lead generation
+- Appointment setting / lead qualification
+- Full-service digital marketing
+- Other
+
+Which wealth management businesses do you want to target?
+
+- Independent RIAs
+- Solo and small-team financial planners
+- High-net-worth and private wealth firms
+- All wealth management firms
+
+Reply with both answers and I'll generate your marketing assets.
